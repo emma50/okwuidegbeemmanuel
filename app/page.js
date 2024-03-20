@@ -26,7 +26,7 @@ export default function Home() {
           setToggleButton={setToggleButton}
         />
       </div>
-      <main className="grid-cols-2 px-20 my-4">
+      <main className="grid-cols-2 px-10 md:px-20 my-4">
         <div className="flex flex-col md:flex-row gap-10 md:gap-3 items-center md:justify-center p-10 md:p-20" id='about'>
           <div className="w-80 h-80">          
             <img className="rounded-full w-80 h-80 shadow-xl shadow-gray-1000" src="/images/emmanuel-new-image.jpg" alt="image description"/>
@@ -67,13 +67,13 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-10">Skills</h2>
           <div className="flex flex-wrap justify-center gap-4">
             <div className="text-start mb-10">
-              <h3 className="text-xl font-bold mb-6">Hard Skills</h3>
+              <h3 className="text-xl font-bold mb-6 px-10">Hard Skills</h3>
               <div className="flex flex-wrap justify-center gap-4 z-0">
                 <CardList hardSkills={true}/>
               </div>
             </div>
             <div className="text-start">
-              <h3 className="text-xl font-bold mb-6">Soft Skills</h3>
+              <h3 className="text-xl font-bold mb-6 px-10">Soft Skills</h3>
               <div className="flex flex-wrap gap-4">
                 <CardList hardSkills={false}/>
               </div>
@@ -82,7 +82,7 @@ export default function Home() {
         </div>
         <div className="pt-16 md:p-20 md:pb-0" id='what-i-do'>
           <h3 className="font-bold text-2xl pb-2 border-b-2 border-solid border-current w-fit">What I do</h3>
-          <div className="p-10 md:p-20">
+          <div className="p-10 px-4 md:p-20">
             {
               services.map((ele) => (
                 <div key={ele.id} className="flex flex-col gap-2 items-center flex-wrap pb-16 md:px-10 text-center">
