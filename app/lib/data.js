@@ -89,7 +89,7 @@ export const services = [
   {
     id: 1,
     title: 'Build Software Applications for the Web',
-    content: "With over 4 years of software development experience, I contribute to building robust, scalable, and user friendly applications that solves user's problems. Checkout the portfolio section of this site to see some of my projects that are sharable here.",
+    content: "With over 4 years of software development experience, I contribute to building robust, scalable, and user friendly applications that solves user's problems. Checkout the portfolio section of this site to see some of my projects.",
     image: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
       <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
     </svg>
@@ -98,7 +98,7 @@ export const services = [
   {
     id: 2,
     title: 'Technical Writing',
-    content: "This is a relatively newer area, where I try to share some ideas, knowledge and thoughts on various tech subjects and passionate about.",
+    content: "This is a new area. I try to share some ideas, knowledge and thoughts on the tech I'm passionate about.",
     image: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
       <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
     </svg>
