@@ -31,3 +31,25 @@ body {
     text-wrap: balance;
   }
 }
+
+.swiper {
+  max-width: 24rem;
+  max-height: 24rem;
+  /* padding: 50px; */
+  background-color: aquamarine;
+  border-radius: 0.5rem;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: inherit;
+  max-height: inherit;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+} */
+
