@@ -1,30 +1,20 @@
 "use client"
 
-import Image from "next/image";
-import { useState, useEffect } from "react";
-import { useRouter } from 'next/navigation';
-
-import { Pagination, A11y, Autoplay } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { useContext } from "react";
 
 import Header from "./ui/header";
-import { skills, services } from "./lib/data";
+import { services } from "./lib/data";
 import Footer from "./ui/footer";
+import { GlobalContext } from "./context";
+import { CardList } from "./ui/card-list";
 
 export default function Home() {
-  const router = useRouter()
-  const [toggleMode, setToggleMode] = useState(false)
-  const [toggleButton, setToggleButton] = useState(false)
+  const { toggleMode } = useContext(GlobalContext);
   
   return (
     <div className={`min-h-screen text-wrap py-2 ${!toggleMode ? 'dark:bg-black text-white' : 'bg-white text-black'} my-[-1rem]`}>
       <div className="fixed w-full backdrop-blur-sm z-50">
-        <Header 
-          toggleMode={toggleMode} 
-          setToggleMode={setToggleMode}
-          toggleButton={toggleButton}
-          setToggleButton={setToggleButton}
-        />
+        <Header/>
       </div>
       <main className="grid-cols-2 px-10 md:px-20 my-4">
         <div className="flex flex-col md:flex-row gap-10 md:gap-3 items-center md:justify-center p-10 md:p-20" id='about'>
@@ -52,13 +42,13 @@ export default function Home() {
               </span>
               <span>
                 <a href="https://www.linkedin.com/in/okwuidegbeemmanuel/" aria-label="Twitter" target="_blank" rel="noreferrer" className="px-1">
-                  <svg class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                  <svg className="w-8 h-8 me-2 px-1 rounded-full border-2 border-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
                     <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
                   </svg>
                 </a>
               </span>
             </div>
-            <button type="button" href="Let's connect" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+            <button type="button" href="Let's connect" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
               <a href="#Let's connect">{"Let's connect"}</a>
             </button>
           </div>
@@ -114,13 +104,13 @@ export default function Home() {
             </span>
             <span>
               <a href="https://www.linkedin.com/in/okwuidegbeemmanuel/" aria-label="Twitter" target="_blank" rel="noreferrer" className="px-1">
-                <svg class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                <svg classNmae="w-8 h-8 me-2 px-1 rounded-full border-2 border-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
                   <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
                 </svg>
               </a>
             </span>
           </div>
-          <button type="button" href="Let's connect" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
+          <button type="button" href="Let's connect" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
             <a href="mailto:okwuidegbeemmanuel@gmail.com">Email Me</a>
             </button>
         </div>
@@ -130,68 +120,4 @@ export default function Home() {
       </div>
     </div>
   );
-}
-
-const CardList = ({hardSkills}) => (
-  <>
-    <Slider>
-      {
-        hardSkills ? 
-        skills.hardSkills.map((ele, i) => (    
-          <SwiperSlide key={i}>
-            <Card ele={ele}/>
-          </SwiperSlide>
-        )) : skills.softSkills.map((ele, i) => (    
-          <SwiperSlide key={i}>
-            <Card ele={ele}/>
-          </SwiperSlide>
-        ))
-      }
-    </Slider>
-  </>
-) 
-
-const Card = ({ele}) => ( 
-  <a href="#" className="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow">
-    {
-      ele.title ?
-      <>
-        <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900">{ele.title}</h5>
-        <div className="flex flex-wrap gap-2 justify-center items-center">
-          {ele.skills.map((skill) => (
-            <div key={skill.id} className="flex flex-col gap-2">
-              <img className="w-8 h-8 mb-3 rounded-full shadow-lg self-center" src={skill.image} alt={`${skill.image} image`}/>
-              <p  className="font-normal text-lg text-gray-700 dark:text-gray-400">{skill.name}</p>
-            </div>
-          ))}
-        </div>
-      </> :
-      <div className="flex flex-col flex-wrap gap-2 justify-center items-center">
-        <img className="w-12 h-12 mb-3 rounded-full shadow-lg" src={ele.image} alt={`${ele.image} image`}/>
-        <p key={ele.id} className="font-normal text-lg text-gray-700 dark:text-gray-400">{ele.name}</p>
-      </div>
-    }
-  </a>
-)
-
-const Slider = ({children}) => {
-  return (
-    <div className="flex justify-center -z-99999999">
-      <Swiper
-      // install Swiper modules
-        modules={[Pagination, A11y, Autoplay]}
-        spaceBetween={10}
-        slidesPerView={1}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{ clickable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log('slide change')}
-      >
-       {children}
-      </Swiper>    
-    </div>
-  )
 }
