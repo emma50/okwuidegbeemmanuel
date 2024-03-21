@@ -1,6 +1,7 @@
 "use client"
 
 import { useContext } from "react";
+import Image from "next/image";
 
 import Header from "./ui/header";
 import { services } from "./lib/data";
@@ -19,7 +20,7 @@ export default function Home() {
       <main className="grid-cols-2 px-10 md:px-20 my-4">
         <div className="flex flex-col md:flex-row gap-10 md:gap-3 items-center md:justify-center p-10 md:p-20" id='about'>
           <div className="w-80 h-80">          
-            <img className="rounded-full w-80 h-80 shadow-xl shadow-gray-1000" src="/images/emmanuel-new-image.jpg" alt="image description"/>
+            <Image width={80} height={80} className="rounded-full w-80 h-80 shadow-xl shadow-gray-1000" src="/images/emmanuel-new-image.jpg" alt="image description"/>
           </div>
           <div className="md:px-10 md:py-6">
             <p className="pt-4 font-bold text-lg">{"<Software Engineer/>"}</p>

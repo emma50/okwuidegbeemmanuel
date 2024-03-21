@@ -1,6 +1,7 @@
 'use client'
 
 import { useContext } from "react"
+import Image from "next/image"
 
 import Header from "../ui/header"
 import Footer from "../ui/footer"
@@ -15,7 +16,7 @@ export default function Portfolio () {
       <div className="fixed w-full backdrop-blur-sm z-50">
         <Header/>
       </div>
-      <main className="grid-cols-2 px-10 md:px-20 my-4">
+      <main className="grid-cols-2 px-10 md:px-20 py-8">
         <div className="flex flex-col md:flex-row items-center p-6">
           <div className="flex flex-col gap-6 md:gap-8 pt-12">
             <h1 className="font-bold text-3xl">Portfolio</h1>
@@ -34,7 +35,7 @@ export default function Portfolio () {
                         <span dangerouslySetInnerHTML={{ __html: ele.linkIcon }}/>
                       </a>
                       <a href={ele.githubLink} aria-label="Github link">
-                        <img src={ele.githubIcon} alt='' className="w-4 h-4 bg-white rounded-lg"/>
+                        <Image width={4} height={4} src={ele.githubIcon} alt='' className="w-4 h-4 bg-white rounded-lg"/>
                       </a>
                     </div>
                   </div>
