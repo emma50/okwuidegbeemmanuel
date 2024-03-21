@@ -87,7 +87,7 @@ export default function Home() {
         </div>
         <div id="Let's connect" className="pt-16 md:p-20 md:px-48 text-center">
           <h1 className="font-bold text-2xl text-center pb-6">{"Let's connect"}</h1>
-          <p>{"My inbox is alway opens, whether you have a question or just want to connect. Feel free to reach out on Linkedin or simply send me mail."}</p>
+          <p>{"My inbox is alway opens, whether you have a question or just want to connect. Feel free to reach out on Linkedin or simply send me a mail."}</p>
           <div className="py-2 flex justify-center gap-4">
             <span>
               <a href="https://www.linkedin.com/in/okwuidegbeemmanuel/" aria-label="Linkedin" target="_blank" rel="noreferrer" className="px-1">
