@@ -54,7 +54,10 @@ export default function Header () {
                 What I do
               </span>
             </a>   
-            <a href="/portfolio" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>Portfolio</a>         
+            <a href="/portfolio" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>Portfolio</a>
+            <a href="https://github.com/emma50" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>
+              <img src='/skills/hard-skills/github.svg' alt='' className='w-5 h-5 bg-white rounded-xl'/>
+            </a>             
           </div>
         </div>
         {
@@ -106,7 +109,12 @@ export default function Header () {
               <li className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" onClick={() => setToggleButton(false)}>
                 <a href="/portfolio" className={`${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>Portfolio</a> 
               </li>
-          </ul>
+              <li className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" onClick={() => setToggleButton(false)}>
+                <a href="https://github.com/emma50" className={`${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>
+                  <img src='/skills/hard-skills/github.svg' alt='' className='w-5 h-5 bg-white rounded-xl'/>
+                </a> 
+              </li>
+            </ul>
           </div>
         }
       </nav>
