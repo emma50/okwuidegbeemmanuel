@@ -1,6 +1,6 @@
 import { useMediaQuery } from 'react-responsive'
 import { useContext,  } from 'react'
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from 'next/navigation';
 import { GlobalContext } from '../context'
 
 export default function Header () {
@@ -11,13 +11,11 @@ export default function Header () {
     setToggleButton 
   } = useContext(GlobalContext);
 
-  // const router = useRouter()
+  const router = useRouter()
+  const pathname = usePathname()
   // console.log(router)
-  
-  const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 })
 
-  // const pathname = window.location.pathname
-  // console.log(pathname)
+  const isDesktopOrLaptop = useMediaQuery({ minWidth: 1224 })
 
   return (
     <>
@@ -36,10 +34,26 @@ export default function Header () {
           </button>
           <div className="items-center hidden md:flex space-x-6 rtl:space-x-reverse font-semibold text-md">
             <a href="tel:+2348141200636" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>(+234) 8141200636</a>
-            <a href="#" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>Home</a>
-            <a href="#about" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>About</a>
-            <a href="#skills" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>Skills</a>
-            <a href="#what-i-do" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>What I do</a>   
+            <a href="#" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>
+              <span onClick={() => router.push('/')}>
+                Home
+              </span>
+            </a>
+            <a href="#about" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>
+              <span onClick={() => router.push('/#about')}>
+                About
+              </span>
+            </a>
+            <a href="#skills" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>
+              <span onClick={() => router.push('/#skills')}>
+                Skills
+              </span>
+            </a>
+            <a href="#what-i-do" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>
+              <span onClick={() => router.push('/#what-i-do')}>
+                What I do
+              </span>
+            </a>   
             <a href="/portfolio" className={`hover:underline ${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>Portfolio</a>         
           </div>
         </div>
@@ -47,22 +61,46 @@ export default function Header () {
           toggleButton && !isDesktopOrLaptop &&
           <div className="px-12 pb-4 w-full">
             <ul className="space-y-1 text-gray-500 list-inside dark:text-gray-400 flex flex-col gap-1">
-              <li className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" onClick={() => setToggleButton(false)}>
+              <li 
+                className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" 
+                onClick={() => setToggleButton(false)}
+              >
                  (+234) 8141200636
               </li>
-              <li className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" onClick={() => setToggleButton(false)}>
-                  <a href="#" className={`${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>Home</a> 
+              <li 
+                className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" 
+                onClick={() => {
+                  setToggleButton(false)
+                  router.push('/')
+                }}
+              >
+                <a href="#" className={`${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>Home</a> 
               </li>
-              <li className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" onClick={() => {
-                setToggleButton(false)
-
-              }}>
+              <li 
+                className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" 
+                onClick={() => {
+                  setToggleButton(false)
+                  router.push('/#about')
+                }}
+              >
                 <a href="#about" className={`${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>About</a> 
               </li>
-              <li className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" onClick={() => setToggleButton(false)}>
+              <li 
+                className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" 
+                onClick={() => {
+                  setToggleButton(false)
+                  router.push('/#skills')
+                }}
+              >
                 <a href="#skills" className={`${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>Skills</a> 
               </li>
-              <li className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" onClick={() => setToggleButton(false)}>
+              <li 
+                className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" 
+                onClick={() => {
+                  setToggleButton(false)
+                  router.push('/#what-i-do')
+                }}
+              >
                 <a href="#what-i-do" className={`${!toggleMode ? 'dark:text-white' : 'text-gray-500'}`}>What I do</a> 
               </li>
               <li className="flex items-center text-white w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" onClick={() => setToggleButton(false)}>
