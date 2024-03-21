@@ -11,7 +11,7 @@ export default function Portfolio () {
   const { toggleMode } = useContext(GlobalContext);
 
   return (
-    <div className={`min-h-screen text-wrap py-2  ${!toggleMode ? 'dark:bg-black text-white' : 'bg-white text-black'} my-[-1rem]`}>
+    <div className={`min-h-screen text-wrap py-2  ${!toggleMode ? 'dark:bg-zinc-900 text-white' : 'bg-white text-black'} my-[-1rem]`}>
       <div className="fixed w-full backdrop-blur-sm z-50">
         <Header/>
       </div>
