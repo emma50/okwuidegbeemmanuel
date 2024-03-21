@@ -49,21 +49,21 @@ export default function Home() {
               </span>
             </div>
             <button type="button" href="Let's connect" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-              <a href="#Let's connect">{"Let's connect"}</a>
+              <a href="#Let's connect" aria-label="Let's connect">{"Let's connect"}</a>
             </button>
           </div>
         </div>
         <div className="text-center pt-16 md:pt-20" id='skills'> 
-          <h2 className="text-2xl font-bold mb-10">Skills</h2>
+          <h1 className="text-2xl font-bold mb-10">Skills</h1>
           <div className="flex flex-wrap justify-center gap-4">
             <div className="text-start mb-10">
-              <h3 className="text-xl font-bold mb-6 px-10">Hard Skills</h3>
+              <h2 className="text-xl font-bold mb-6 px-10">Hard Skills</h2>
               <div className="flex flex-wrap justify-center gap-4 z-0">
                 <CardList hardSkills={true}/>
               </div>
             </div>
             <div className="text-start">
-              <h3 className="text-xl font-bold mb-6 px-10">Soft Skills</h3>
+              <h2 className="text-xl font-bold mb-6 px-10">Soft Skills</h2>
               <div className="flex flex-wrap gap-4">
                 <CardList hardSkills={false}/>
               </div>
@@ -71,7 +71,7 @@ export default function Home() {
           </div>
         </div>
         <div className="pt-16 md:p-20 md:pb-0" id='what-i-do'>
-          <h3 className="font-bold text-2xl pb-2 border-b-2 border-solid border-current w-fit">What I do</h3>
+          <h1 className="font-bold text-2xl pb-2 border-b-2 border-solid border-current w-fit">What I do</h1>
           <div className="p-10 px-4 md:p-20">
             {
               services.map((ele) => (
@@ -111,7 +111,7 @@ export default function Home() {
             </span>
           </div>
           <button type="button" href="Let's connect" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">
-            <a href="mailto:okwuidegbeemmanuel@gmail.com">Email Me</a>
+            <a href="mailto:okwuidegbeemmanuel@gmail.com" aria-label="Email Me">Email Me</a>
             </button>
         </div>
       </main>

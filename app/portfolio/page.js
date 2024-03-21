@@ -18,7 +18,7 @@ export default function Portfolio () {
       <main className="grid-cols-2 px-10 md:px-20 my-4">
         <div className="flex flex-col md:flex-row items-center p-6">
           <div className="flex flex-col gap-6 md:gap-8 pt-12">
-            <h2 className="font-bold text-3xl">Portfolio</h2>
+            <h1 className="font-bold text-3xl">Portfolio</h1>
             <p>Here are some notable projects I have worked on. I try to update as soon as I can.</p>
           </div>
         </div>
@@ -30,10 +30,10 @@ export default function Portfolio () {
                   <div className="flex gap-4 justify-between pb-6">
                     <div>{ele.status}</div>
                     <div className="flex gap-2">
-                      <a href={ele.link}>
+                      <a href={ele.link} aria-label="Project link">
                         <span dangerouslySetInnerHTML={{ __html: ele.linkIcon }}/>
                       </a>
-                      <a href={ele.githubLink}>
+                      <a href={ele.githubLink} aria-label="Github link">
                         <img src={ele.githubIcon} alt='' className="w-4 h-4 bg-white rounded-lg"/>
                       </a>
                     </div>

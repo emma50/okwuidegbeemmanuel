@@ -1,9 +1,9 @@
 export const Card = ({ele}) => ( 
-  <a href="#" className="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow">
+  <a href="#" className="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow" aria-label="Home">
     {
       ele.title ?
       <>
-        <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900">{ele.title}</h5>
+        <h1 className="mb-4 text-2xl font-bold tracking-tight text-gray-900">{ele.title}</h1>
         <div className="flex flex-wrap gap-2 justify-center items-center">
           {ele.skills.map((skill) => (
             <div key={skill.id} className="flex flex-col gap-2">
