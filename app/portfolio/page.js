@@ -31,10 +31,10 @@ export default function Portfolio () {
                   <div className="flex gap-4 justify-between pb-6">
                     <div>{ele.status}</div>
                     <div className="flex gap-2">
-                      <a href={ele.link} aria-label="Project link">
+                      <a href={ele.link} aria-label="Project link" target="_blank">
                         <span dangerouslySetInnerHTML={{ __html: ele.linkIcon }}/>
                       </a>
-                      <a href={ele.githubLink} aria-label="Github link">
+                      <a href={ele.githubLink} aria-label="Github link" target="_blank">
                         <Image width={4} height={4} src={ele.githubIcon} alt='' className="w-4 h-4 bg-white rounded-lg"/>
                       </a>
                     </div>
