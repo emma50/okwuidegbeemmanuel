@@ -77,7 +77,7 @@ export default function Home() {
             {
               services.map((ele) => (
                 <div key={ele.id} className="flex flex-col gap-2 items-center flex-wrap pb-16 md:px-10 text-center">
-                  <div dangerouslySetInnerHTML={{ __html: ele.image }} className="pb-4"/>
+                  <div dangerouslySetInnerHTML={{ __html: ele.image }}/>
                   <div className="pb-4 font-semibold text-xl">{ele.title}</div>
                   <div>{ele.content}</div>
                 </div>
