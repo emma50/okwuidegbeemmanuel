@@ -57,7 +57,7 @@ export default function Header () {
         {
           toggleButton && !isDesktopOrLaptop &&
           <div className="px-12 pb-4">
-            <ul className="space-y-1 text-gray-500 list-inside dark:text-gray-400 flex flex-col gap-1">
+            <ul className="space-y-1 list-inside flex flex-col gap-1">
               <li 
                 className="flex items-center w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" 
                 onClick={() => setToggleButton(false)}
