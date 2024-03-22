@@ -12,7 +12,7 @@ export default function Portfolio () {
   const { toggleMode } = useContext(GlobalContext);
 
   return (
-    <div className={`min-h-screen text-wrap py-2  ${!toggleMode ? 'dark:bg-zinc-900 text-white' : 'bg-white text-black'} my-[-1rem]`}>
+    <div className={`min-h-screen overflow-hidden text-wrap py-2  ${!toggleMode ? 'dark:bg-zinc-900 text-white' : 'bg-white text-black'} my-[-1rem]`}>
       <div className="fixed w-full backdrop-blur-sm z-50">
         <Header/>
       </div>
@@ -27,7 +27,7 @@ export default function Portfolio () {
           {
             portfolio.map((ele) => {
               return (
-                <div key={ele.id} className="block max-w-sm p-2 px-4 m-4 border w-80 h-72 border-gray-200 rounded-lg shadow">
+                <div key={ele.id} className="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-72 border-gray-200 rounded-lg shadow">
                   <div className="flex gap-4 justify-between pb-6">
                     <div>{ele.status}</div>
                     <div className="flex gap-2">

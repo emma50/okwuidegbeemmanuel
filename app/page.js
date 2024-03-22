@@ -13,11 +13,11 @@ export default function Home() {
   const { toggleMode } = useContext(GlobalContext);
   
   return (
-    <div className={`min-h-screen text-wrap py-2 ${!toggleMode ? 'dark:bg-zinc-900 text-gray-300' : 'bg-white text-black'} my-[-1rem]`}>
+    <div className={`min-h-screen overflow-hidden w-full text-wrap py-2 ${!toggleMode ? 'dark:bg-zinc-900 text-gray-300' : 'bg-white text-black'} my-[-1rem] w-full`}>
       <div className="fixed w-full backdrop-blur-sm z-50">
         <Header/>
       </div>
-      <main className="grid-cols-2 px-10 md:px-20 my-4">
+      <main className="px-10 md:px-20 my-4">
         <div className="flex flex-col md:flex-row gap-10 md:gap-3 items-center md:justify-center p-10 md:p-20" id='about'>
           <div className="w-80 h-80">          
             <Image width={80} height={80} className="rounded-full w-80 h-80 shadow-xl shadow-gray-1000" src="/images/emmanuel-new-image.jpg" alt="image description"/>

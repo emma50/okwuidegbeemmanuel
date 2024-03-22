@@ -35,8 +35,6 @@ body {
 .swiper {
   max-width: 24rem;
   max-height: 24rem;
-  /* padding: 50px; */
-  background-color: aquamarine;
   border-radius: 0.5rem;
 }
 
