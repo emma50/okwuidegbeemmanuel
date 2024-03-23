@@ -27,7 +27,7 @@ export default function Portfolio () {
           {
             portfolio.map((ele) => {
               return (
-                <div key={ele.id} className="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-72 border-gray-200 rounded-lg shadow">
+                <div key={ele.id} className="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow">
                   <div className="flex gap-4 justify-between pb-6">
                     <div>{ele.status}</div>
                     <div className="flex gap-2">
@@ -39,13 +39,13 @@ export default function Portfolio () {
                       </a>
                     </div>
                   </div>
-                  <div className="flex items-center flex-wrap w-full mb-4">
+                  <div className="flex items-center flex-wrap w-full mb-5">
                     <p className="font-bold">{ele.title}</p>
                   </div>
-                  <div className="flex items-center flex-wrap w-full mb-4">
+                  <div className="flex items-center flex-wrap w-full mb-6">
                     <p className="font-medium text-sm">{ele.content}</p>
                   </div>
-                  <div className="flex gap-2 items-center flex-wrap w-full pb-2">
+                  <div className="flex gap-3 items-center flex-wrap w-full">
                     {
                       ele.stack.map((item) => {
                         return (

@@ -186,6 +186,18 @@ export const portfolio = [
       {
         id: 9,
         name: 'Vercel'
+      },
+      {
+        id: 10,
+        name: 'Redux'
+      },
+      {
+        id: 11,
+        name: 'Redux Toolkit'
+      },
+      {
+        id: 12,
+        name: 'Redux Persist'
       }
     ]
   },
@@ -252,6 +264,10 @@ export const portfolio = [
       {
         id: 3,
         name: 'Firebase'
+      },
+      {
+        id: 4,
+        name: 'Redux'
       },
     ]
   },
@@ -331,6 +347,10 @@ export const portfolio = [
       {
         id: 16,
         name: 'Redis'
+      },
+      {
+        id: 17,
+        name: 'Digital Ocean'
       },
     ]
   },
