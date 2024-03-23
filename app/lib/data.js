@@ -357,7 +357,7 @@ export const portfolio = [
   {
     id: 6,
     title: 'E-commerce',
-    content: 'A is a simple e-commerce application programming interface.',
+    content: 'A simple e-commerce API.',
     githubLink: 'https://github.com/emma50/e-commerce',
     githubIcon: '/skills/hard-skills/github.svg',
     link: '',
