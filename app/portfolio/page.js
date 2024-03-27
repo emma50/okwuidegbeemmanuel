@@ -2,22 +2,11 @@
 
 import { useContext } from "react"
 import Image from "next/image"
-import dynamic from "next/dynamic"
 
 import { GlobalContext } from "../context"
 import { portfolio } from "../lib/data"
-// import Header from "../ui/header"
-// import Footer from "../ui/footer"
-
-const Header = dynamic(
-  () => import('../ui/header'),
-  { ssr: false }
-);
-
-const Footer = dynamic(
-  () => import('../ui/footer'),
-  { ssr: false }
-);
+import Header from "../ui/header"
+import Footer from "../ui/footer"
 
 export default function Portfolio () {
   const { toggleMode } = useContext(GlobalContext);

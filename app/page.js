@@ -6,19 +6,10 @@ import dynamic from 'next/dynamic'
 
 import { services } from "./lib/data";
 import { GlobalContext } from "./context";
-// import Header from "./ui/header";
-// import Footer from "./ui/footer";
+import Header from "./ui/header";
+import Footer from "./ui/footer";
 // import { CardList } from "./ui/card-list";
 
-const Header = dynamic(
-  () => import('./ui/header'),
-  { ssr: false }
-);
-
-const Footer = dynamic(
-  () => import('./ui/footer'),
-  { ssr: false }
-);
 
 const CardList = dynamic(
   async () => {
