@@ -2,24 +2,12 @@
 
 import { useContext } from "react";
 import Image from "next/image";
-import dynamic from 'next/dynamic'
 
 import { services } from "./lib/data";
 import { GlobalContext } from "./context";
 import Header from "./ui/header";
 import Footer from "./ui/footer";
-// import { CardList } from "./ui/card-list";
-
-
-const CardList = dynamic(
-  async () => {
-    const { CardList } = await import('./ui/card-list');
-    return CardList;
-  },
-  {
-    ssr: false, // Optional: Disable server-side rendering if not needed
-  }
-);
+import { CardList } from "./ui/card-list";
 
 export default function Home() {
   const { toggleMode } = useContext(GlobalContext);
