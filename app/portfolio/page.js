@@ -2,6 +2,7 @@
 
 import { useContext } from "react"
 import Image from "next/image"
+import dynamic from "next/dynamic"
 
 import { GlobalContext } from "../context"
 import { portfolio } from "../lib/data"
