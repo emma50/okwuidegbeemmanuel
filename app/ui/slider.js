@@ -14,8 +14,8 @@ export const Slider = ({children}) => {
           disableOnInteraction: false,
         }}
         pagination={{ clickable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log('slide change')}
+        // onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log('slide change')}
       >
        {children}
       </Swiper>    

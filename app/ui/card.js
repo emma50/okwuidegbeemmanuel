@@ -5,10 +5,10 @@ export const Card = ({ele}) => (
     {
       ele.title ?
       <>
-        <h1 className="mb-4 text-2xl font-bold tracking-tight text-gray-900">{ele.title}</h1>
-        <div className="flex flex-wrap gap-2 justify-center items-center">
+        <h1 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center">{ele.title}</h1>
+        <div className="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2">
           {ele.skills.map((skill) => (
-            <div key={skill.id} className="flex flex-col gap-2">
+            <div key={skill.id} className="flex flex-col flex-wrap gap-2">
               <Image width={8} height={8} className="w-8 h-8 mb-3 rounded-full shadow-lg self-center" src={skill.image} alt={`${skill.image} image`}/>
               <p  className="font-normal text-lg text-gray-700 dark:text-gray-400">{skill.name}</p>
             </div>

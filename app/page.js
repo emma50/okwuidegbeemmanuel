@@ -2,12 +2,33 @@
 
 import { useContext } from "react";
 import Image from "next/image";
+import dynamic from 'next/dynamic'
 
-import Header from "./ui/header";
 import { services } from "./lib/data";
-import Footer from "./ui/footer";
 import { GlobalContext } from "./context";
-import { CardList } from "./ui/card-list";
+// import Header from "./ui/header";
+// import Footer from "./ui/footer";
+// import { CardList } from "./ui/card-list";
+
+const Header = dynamic(
+  () => import('./ui/header'),
+  { ssr: false }
+);
+
+const Footer = dynamic(
+  () => import('./ui/footer'),
+  { ssr: false }
+);
+
+const CardList = dynamic(
+  async () => {
+    const { CardList } = await import('./ui/card-list');
+    return CardList;
+  },
+  {
+    ssr: false, // Optional: Disable server-side rendering if not needed
+  }
+);
 
 export default function Home() {
   const { toggleMode } = useContext(GlobalContext);
@@ -19,10 +40,10 @@ export default function Home() {
       </div>
       <main className="px-10 md:px-20 my-4">
         <div className="flex flex-col md:flex-row gap-10 md:gap-3 items-center md:justify-center p-10 md:p-20" id='about'>
-          <div className="w-80 h-80">          
-            <Image width={80} height={80} className="rounded-full w-80 h-80 shadow-xl shadow-gray-1000" src="/images/emmanuel-new-image.jpg" alt="image description"/>
+          <div className="mt-12 md:mt-0">          
+            <Image width={320} height={150} className="rounded-full shadow-xl shadow-gray-1000" src="/images/emmanuel-new-image.jpg" alt="image description"/>
           </div>
-          <div className="md:px-10 md:py-6">
+          <div className="pt-4 md:pt-4 md:px-10 md:py-6">
             <p className="pt-4 font-bold text-lg">{"<Software Engineer/>"}</p>
             <p className="pt-4 font-bold">{"Hello World! 👋, My name is Okwuidegbe Emmanuel"}</p>
             <p className="md:max-w-96 md:text-wrap pt-4">{"I am a passionate web developer with 4+ years of experience. I specialize in building cool things on the web."}</p>
@@ -58,13 +79,13 @@ export default function Home() {
           <h1 className="text-2xl font-bold mb-10">Skills</h1>
           <div className="flex flex-wrap justify-center gap-4">
             <div className="text-start mb-10">
-              <h2 className="text-xl font-bold mb-6 px-10">Hard Skills</h2>
+              <h2 className="text-xl font-bold mb-6 px-10 pl-16 md:px-10">Hard Skills</h2>
               <div className="flex flex-wrap justify-center gap-4 z-0">
                 <CardList hardSkills={true}/>
               </div>
             </div>
             <div className="text-start">
-              <h2 className="text-xl font-bold mb-6 px-10">Soft Skills</h2>
+              <h2 className="text-xl font-bold mb-6 px-10 pl-16 md:px-10">Soft Skills</h2>
               <div className="flex flex-wrap gap-4">
                 <CardList hardSkills={false}/>
               </div>
