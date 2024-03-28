@@ -9,7 +9,7 @@ import Header from "./ui/header";
 import Footer from "./ui/footer";
 import { CardList } from "./ui/card-list";
 
-export default function Home() {
+export default function Page() {
   const { toggleMode } = useContext(GlobalContext);
   
   return (

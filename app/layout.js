@@ -15,8 +15,13 @@ register();
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Okwuidegbe Emmanuel",
-  description: "My portfolio website",
+  title: {
+    template: "%s | Okwuidegbe Emmanuel Portfolio",
+    default: "Okwuidegbe Emmanuel Portfolio",
+  },
+  description: "Okwuidegbe Emmanuel is a passionate web developer with 4+ years of experience. He specializes in building cool things on the web.",
+  keywords: "Okwuidegbe, Emmanuel, Portfolio, Software Engineer, Web Developer, Developer, Frontend Engineer, Frontend Developer",
+  metadataBase: new URL('https://okwuidegbeemmanuel.vercel.app'),
 };
 
 export default function RootLayout({ children }) {

@@ -8,6 +8,10 @@ import { portfolio } from "../lib/data"
 import Header from "../ui/header"
 import Footer from "../ui/footer"
 
+export const metadata = {
+  title: 'Portfolio',
+};
+
 export default function Portfolio () {
   const { toggleMode } = useContext(GlobalContext);
 

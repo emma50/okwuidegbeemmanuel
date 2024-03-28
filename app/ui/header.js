@@ -1,5 +1,5 @@
 import { useMediaQuery } from 'react-responsive'
-import { useContext,  } from 'react'
+import { useContext } from 'react'
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 
@@ -34,9 +34,6 @@ export default function Header () {
           </button>
           <div className="items-center hidden md:flex space-x-6 rtl:space-x-reverse font-semibold text-md w-inherit">
           <a href="tel:+2348141200636" aria-label='Telephone Number'>(+234) 8141200636</a>
-          <a href="#" aria-label='Home'>
-            <span onClick={() => router.push('/')}>Home</span>
-          </a>
           <a href="#about" aria-label='About'>
             <span onClick={() => router.push('/#about')}>About</span>
           </a>
@@ -61,15 +58,6 @@ export default function Header () {
                 onClick={() => setToggleButton(false)}
               >
                  (+234) 8141200636
-              </li>
-              <li 
-                className="flex items-center w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" 
-                onClick={() => {
-                  setToggleButton(false)
-                  router.push('/')
-                }}
-              >
-                <a href="#" aria-label='Home'>Home</a> 
               </li>
               <li 
                 className="flex items-center w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" 
