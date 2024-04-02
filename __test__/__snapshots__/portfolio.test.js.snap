@@ -1,0 +1,2497 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page renders the portfolio page 1`] = `
+<div>
+  <div
+    class="min-h-screen overflow-hidden text-wrap py-2  dark:bg-zinc-900 text-white my-[-1rem]"
+  >
+    <div
+      class="fixed w-full backdrop-blur-sm z-50"
+    >
+      <nav
+        class="border-gray-200 backdrop-blur-sm dark:bg-zinc-800/30 text-gray-300"
+      >
+        <div
+          class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-6 px-12"
+        >
+          <a
+            aria-label="Home"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+            href="#"
+          >
+            <img
+              alt="Emmanuel Logo"
+              class="h-8 w-8 rounded-2xl"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=64&q=75"
+              srcset="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=64&q=75 2x"
+              style="color: transparent;"
+              width="32"
+            />
+            <svg
+              class="w-6 h-6"
+              fill="text-black"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+          <button
+            aria-controls="navbar-default"
+            aria-expanded="false"
+            aria-label="Menu Dropdown "
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            data-collapse-toggle="navbar-default"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5"
+              fill="none"
+              viewBox="0 0 17 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1h15M1 7h15M1 13h15"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+          <div
+            class="items-center hidden md:flex space-x-6 rtl:space-x-reverse font-semibold text-md w-inherit"
+          >
+            <a
+              aria-label="Telephone Number"
+              href="tel:+2348141200636"
+            >
+              (+234) 8141200636
+            </a>
+            <a
+              aria-label="About"
+              href="#about"
+            >
+              <span>
+                About
+              </span>
+            </a>
+            <a
+              aria-label="Skills"
+              href="#skills"
+            >
+              <span>
+                Skills
+              </span>
+            </a>
+            <a
+              aria-label="What I Do"
+              href="#what-i-do"
+            >
+              <span>
+                What I do
+              </span>
+            </a>
+            <a
+              aria-label="Portfolio"
+              href="/portfolio"
+            >
+              Portfolio
+            </a>
+            <a
+              aria-label="Github Profile"
+              href="https://github.com/emma50"
+            >
+              <img
+                alt=""
+                class="w-5 h-5 bg-white rounded-xl"
+                data-nimg="1"
+                decoding="async"
+                height="5"
+                loading="lazy"
+                src="/skills/hard-skills/github.svg"
+                style="color: transparent;"
+                width="5"
+              />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main
+      class="grid-cols-2 px-10 md:px-20 py-8"
+    >
+      <div
+        class="flex flex-col md:flex-row items-center p-6"
+      >
+        <div
+          class="flex flex-col gap-6 md:gap-8 pt-12"
+        >
+          <h1
+            class="font-bold text-3xl"
+            data-testid="portfolio"
+          >
+            Portfolio
+          </h1>
+          <p
+            data-testid="projects"
+          >
+            Here are some notable projects I have worked on. I try to update as soon as I can.
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex flex-col flex-wrap md:flex-row gap-10 md:gap-3 items-center justify-center p-4 md:p-2"
+      >
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Private
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href="https://nexaya-frontend-assessment.vercel.app/login"
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/nexaya-frontend-assessment"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Nexaya Frontend Assessment
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              A Nexaya frontend assessment task.
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nextjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Tailwindcss
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href="https://shopps.vercel.app/"
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/shopps"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Shopps
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              A standard e-commerce platform
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nextjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              NextAuth
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Sass
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Stripe
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Paypal
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              MongoDB
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Vercel
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redux
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redux Toolkit
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redux Persist
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href=""
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/quick-credit-api"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Quick Credit API
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              quick-credit-api is an online lending platform that provides short term soft loans to individuals. This helps solve problems of financial inclusion as a way to alleviate poverty and empower low income earners.
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nodejs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              JWT
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Travisci
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Expressjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Postgresql
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href=""
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/expensify"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Expensify
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              An expense tracker
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Firebase
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redux
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href=""
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/ticket-booking"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Ticket booking
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              A mini ticket booking service.
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Typescript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nextjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nodejs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Expressjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              NATS streaming server
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              MongoDB
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Github Actions
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Stripe
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Bull
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Docker
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Kubernetes
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nginx
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Skaffold
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Microservice
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redis
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Digital Ocean
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href=""
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/e-commerce"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              E-commerce
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              A simple e-commerce API.
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Babel
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Eslint
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              MongoDB
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Mongoose
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Twilio
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Expressjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nodemailer
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Airbnb
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redis
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Private
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href=""
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/zc_plugin_youtube_music_video"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Zuri plugin youtube music video
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              A youtube plugin music video for zuri application
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redux
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Styled Components
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href="https://emma50.github.io/random-quote-machine/"
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/random-quote-machine"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Random Quote Machine
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              An application that randomly generates quote
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              css
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Font Awesome
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Private
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href="https://main.d2uha1mup3vsuv.amplifyapp.com/"
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href=""
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Funconnect Hub
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              Funconnect is an app that allow users seamlessly navigate recreational centres around them, plan a trip efficiently and create events for link-up with friends.
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nextjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Iron session
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Sass
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              MongoDB
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div
+      class="pt-20"
+    >
+      <div
+        class="flex flex-col justify-center items-center gap-1 text-gray-300 p-6 shadow-sm"
+      >
+        <p
+          class="font-medium text-sm pb-2"
+        >
+          Created with ❤️ by Okwuidegbe Emmanuel
+        </p>
+        <p
+          class="font-medium text-sm"
+        >
+          2024 - 
+          2024
+           ©
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Portfolio Page renders the portfolio page 1`] = `
+<div>
+  <div
+    class="min-h-screen overflow-hidden text-wrap py-2  dark:bg-zinc-900 text-white my-[-1rem]"
+  >
+    <div
+      class="fixed w-full backdrop-blur-sm z-50"
+    >
+      <nav
+        class="border-gray-200 backdrop-blur-sm dark:bg-zinc-800/30 text-gray-300"
+      >
+        <div
+          class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-6 px-12"
+        >
+          <a
+            aria-label="Home"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+            href="#"
+          >
+            <img
+              alt="Emmanuel Logo"
+              class="h-8 w-8 rounded-2xl"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=64&q=75"
+              srcset="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=64&q=75 2x"
+              style="color: transparent;"
+              width="32"
+            />
+            <svg
+              class="w-6 h-6"
+              fill="text-black"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+          <button
+            aria-controls="navbar-default"
+            aria-expanded="false"
+            aria-label="Menu Dropdown "
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            data-collapse-toggle="navbar-default"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5"
+              fill="none"
+              viewBox="0 0 17 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1h15M1 7h15M1 13h15"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+          <div
+            class="items-center hidden md:flex space-x-6 rtl:space-x-reverse font-semibold text-md w-inherit"
+          >
+            <a
+              aria-label="Telephone Number"
+              href="tel:+2348141200636"
+            >
+              (+234) 8141200636
+            </a>
+            <a
+              aria-label="About"
+              href="#about"
+            >
+              <span>
+                About
+              </span>
+            </a>
+            <a
+              aria-label="Skills"
+              href="#skills"
+            >
+              <span>
+                Skills
+              </span>
+            </a>
+            <a
+              aria-label="What I Do"
+              href="#what-i-do"
+            >
+              <span>
+                What I do
+              </span>
+            </a>
+            <a
+              aria-label="Portfolio"
+              href="/portfolio"
+            >
+              Portfolio
+            </a>
+            <a
+              aria-label="Github Profile"
+              href="https://github.com/emma50"
+            >
+              <img
+                alt=""
+                class="w-5 h-5 bg-white rounded-xl"
+                data-nimg="1"
+                decoding="async"
+                height="5"
+                loading="lazy"
+                src="/skills/hard-skills/github.svg"
+                style="color: transparent;"
+                width="5"
+              />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main
+      class="grid-cols-2 px-10 md:px-20 py-8"
+    >
+      <div
+        class="flex flex-col md:flex-row items-center p-6"
+      >
+        <div
+          class="flex flex-col gap-6 md:gap-8 pt-12"
+        >
+          <h1
+            class="font-bold text-3xl"
+            data-testid="portfolio"
+          >
+            Portfolio
+          </h1>
+          <p
+            data-testid="projects"
+          >
+            Here are some notable projects I have worked on. I try to update as soon as I can.
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex flex-col flex-wrap md:flex-row gap-10 md:gap-3 items-center justify-center p-4 md:p-2"
+      >
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Private
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href="https://nexaya-frontend-assessment.vercel.app/login"
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/nexaya-frontend-assessment"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Nexaya Frontend Assessment
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              A Nexaya frontend assessment task.
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nextjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Tailwindcss
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href="https://shopps.vercel.app/"
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/shopps"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Shopps
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              A standard e-commerce platform
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nextjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              NextAuth
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Sass
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Stripe
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Paypal
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              MongoDB
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Vercel
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redux
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redux Toolkit
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redux Persist
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href=""
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/quick-credit-api"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Quick Credit API
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              quick-credit-api is an online lending platform that provides short term soft loans to individuals. This helps solve problems of financial inclusion as a way to alleviate poverty and empower low income earners.
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nodejs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              JWT
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Travisci
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Expressjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Postgresql
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href=""
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/expensify"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Expensify
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              An expense tracker
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Firebase
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redux
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href=""
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/ticket-booking"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Ticket booking
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              A mini ticket booking service.
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Typescript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nextjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nodejs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Expressjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              NATS streaming server
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              MongoDB
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Github Actions
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Stripe
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Bull
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Docker
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Kubernetes
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nginx
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Skaffold
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Microservice
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redis
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Digital Ocean
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href=""
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/e-commerce"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              E-commerce
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              A simple e-commerce API.
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Babel
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Eslint
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              MongoDB
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Mongoose
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Twilio
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Expressjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nodemailer
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Airbnb
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redis
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Private
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href=""
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/zc_plugin_youtube_music_video"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Zuri plugin youtube music video
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              A youtube plugin music video for zuri application
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Redux
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Styled Components
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Public
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href="https://emma50.github.io/random-quote-machine/"
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href="https://github.com/emma50/random-quote-machine"
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Random Quote Machine
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              An application that randomly generates quote
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              css
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Font Awesome
+            </div>
+          </div>
+        </div>
+        <div
+          class="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow"
+        >
+          <div
+            class="flex gap-4 justify-between pb-6"
+          >
+            <div>
+              Private
+            </div>
+            <div
+              class="flex gap-2"
+            >
+              <a
+                aria-label="Project link"
+                href="https://main.d2uha1mup3vsuv.amplifyapp.com/"
+                target="_blank"
+              >
+                <span>
+                  <svg
+                    class="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokewidth="1.5"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    
+    
+                    <path
+                      d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                      strokelinecap="round"
+                      strokelinejoin="round"
+                    />
+                    
+  
+                  </svg>
+                  
+  
+                </span>
+              </a>
+              <a
+                aria-label="Github link"
+                href=""
+                target="_blank"
+              >
+                <img
+                  alt=""
+                  class="w-4 h-4 bg-white rounded-lg"
+                  data-nimg="1"
+                  decoding="async"
+                  height="4"
+                  loading="lazy"
+                  src="/skills/hard-skills/github.svg"
+                  style="color: transparent;"
+                  width="4"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-5"
+          >
+            <p
+              class="font-bold"
+            >
+              Funconnect Hub
+            </p>
+          </div>
+          <div
+            class="flex items-center flex-wrap w-full mb-6"
+          >
+            <p
+              class="font-medium text-sm"
+            >
+              Funconnect is an app that allow users seamlessly navigate recreational centres around them, plan a trip efficiently and create events for link-up with friends.
+            </p>
+          </div>
+          <div
+            class="flex gap-3 items-center flex-wrap w-full"
+          >
+            <div
+              class="flex text-sm"
+            >
+              Javascript
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              React
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Nextjs
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Iron session
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              Sass
+            </div>
+            <div
+              class="flex text-sm"
+            >
+              MongoDB
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div
+      class="pt-20"
+    >
+      <div
+        class="flex flex-col justify-center items-center gap-1 text-gray-300 p-6 shadow-sm"
+      >
+        <p
+          class="font-medium text-sm pb-2"
+        >
+          Created with ❤️ by Okwuidegbe Emmanuel
+        </p>
+        <p
+          class="font-medium text-sm"
+        >
+          2024 - 
+          2024
+           ©
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

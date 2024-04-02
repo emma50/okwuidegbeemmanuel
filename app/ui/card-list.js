@@ -1,5 +1,5 @@
-import { Slider } from "./slider"
 import { SwiperSlide } from 'swiper/react';
+import { Slider } from "./slider"
 import { skills } from "../lib/data";
 
 import { Card } from "./card";

@@ -3,11 +3,15 @@ import { render, screen } from '@testing-library/react'
 import Page from '../app/page'
  
 describe('Page', () => {
-  it('renders a heading', () => {
+  it('renders the index page', () => {
     const { container } = render(<Page />)
  
-    const text = screen.getByText('Software')
+    const skills = screen.getByTestId('skills')
+    const services = screen.getByTestId('what I do')
+    const emailMe = screen.getByTestId('email me')
     expect(container).toMatchSnapshot()
-    expect(text).toBeInTheDocument()
+    expect(skills).toBeInTheDocument()
+    expect(services).toBeInTheDocument()
+    expect(emailMe).toBeInTheDocument()
   })
 })

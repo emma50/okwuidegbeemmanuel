@@ -1,0 +1,2537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page renders a heading 1`] = `
+<div>
+  <div
+    class="min-h-screen overflow-hidden w-full text-wrap py-2 dark:bg-zinc-900 text-gray-300 my-[-1rem] w-full"
+  >
+    <div
+      class="fixed w-full backdrop-blur-sm z-50"
+    >
+      <nav
+        class="border-gray-200 backdrop-blur-sm dark:bg-zinc-800/30 text-gray-300"
+      >
+        <div
+          class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-6 px-12"
+        >
+          <a
+            aria-label="Home"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+            href="#"
+          >
+            <img
+              alt="Emmanuel Logo"
+              class="h-8 w-8 rounded-2xl"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=64&q=75"
+              srcset="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=64&q=75 2x"
+              style="color: transparent;"
+              width="32"
+            />
+            <svg
+              class="w-6 h-6"
+              fill="text-black"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+          <button
+            aria-controls="navbar-default"
+            aria-expanded="false"
+            aria-label="Menu Dropdown "
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            data-collapse-toggle="navbar-default"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5"
+              fill="none"
+              viewBox="0 0 17 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1h15M1 7h15M1 13h15"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+          <div
+            class="items-center hidden md:flex space-x-6 rtl:space-x-reverse font-semibold text-md w-inherit"
+          >
+            <a
+              aria-label="Telephone Number"
+              href="tel:+2348141200636"
+            >
+              (+234) 8141200636
+            </a>
+            <a
+              aria-label="About"
+              href="#about"
+            >
+              <span>
+                About
+              </span>
+            </a>
+            <a
+              aria-label="Skills"
+              href="#skills"
+            >
+              <span>
+                Skills
+              </span>
+            </a>
+            <a
+              aria-label="What I Do"
+              href="#what-i-do"
+            >
+              <span>
+                What I do
+              </span>
+            </a>
+            <a
+              aria-label="Portfolio"
+              href="/portfolio"
+            >
+              Portfolio
+            </a>
+            <a
+              aria-label="Github Profile"
+              href="https://github.com/emma50"
+            >
+              <img
+                alt=""
+                class="w-5 h-5 bg-white rounded-xl"
+                data-nimg="1"
+                decoding="async"
+                height="5"
+                loading="lazy"
+                src="/skills/hard-skills/github.svg"
+                style="color: transparent;"
+                width="5"
+              />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main
+      class="px-10 md:px-20 my-4"
+    >
+      <div
+        class="flex flex-col md:flex-row gap-10 md:gap-3 items-center md:justify-center p-10 md:p-20"
+        id="about"
+      >
+        <div
+          class="mt-12 md:mt-0"
+        >
+          <img
+            alt="image description"
+            class="rounded-full shadow-xl shadow-gray-1000"
+            data-nimg="1"
+            decoding="async"
+            height="150"
+            loading="lazy"
+            src="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=640&q=75"
+            srcset="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=384&q=75 1x, /_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=640&q=75 2x"
+            style="color: transparent;"
+            width="320"
+          />
+        </div>
+        <div
+          class="pt-4 md:pt-4 md:px-10 md:py-6"
+        >
+          <p
+            class="pt-4 font-bold text-lg"
+          >
+            &lt;Software Engineer/&gt;
+          </p>
+          <p
+            class="pt-4 font-bold"
+          >
+            Hello World! 👋, My name is Okwuidegbe Emmanuel
+          </p>
+          <p
+            class="md:max-w-96 md:text-wrap pt-4"
+          >
+            I am a passionate web developer with 4+ years of experience. I specialize in building cool things on the web.
+          </p>
+          <div
+            class="py-2 flex gap-4"
+          >
+            <span>
+              <a
+                aria-label="Linkedin"
+                class="px-1"
+                href="https://www.linkedin.com/in/okwuidegbeemmanuel/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg
+                  class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+                  />
+                </svg>
+              </a>
+            </span>
+            <span>
+              <a
+                aria-label="Github"
+                class="px-1"
+                href="https://github.com/emma50"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </span>
+            <span>
+              <a
+                aria-label="Twitter"
+                class="px-1"
+                href="https://www.linkedin.com/in/okwuidegbeemmanuel/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white"
+                  fill="currentColor"
+                  viewBox="0 0 20 17"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </span>
+          </div>
+          <button
+            aria-label="Let's connect"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            href="Let's connect"
+            type="button"
+          >
+            <a
+              aria-label="Let's connect"
+              href="#Let's connect"
+            >
+              Let's connect
+            </a>
+          </button>
+        </div>
+      </div>
+      <div
+        class="text-center pt-16 md:pt-20"
+        id="skills"
+      >
+        <h1
+          class="text-2xl font-bold mb-10"
+          data-testid="skills"
+        >
+          Skills
+        </h1>
+        <div
+          class="flex flex-wrap justify-center gap-4"
+        >
+          <div
+            class="text-start mb-10"
+          >
+            <h2
+              class="text-xl font-bold mb-6 px-10 pl-16 md:px-10"
+              data-testid="hard skills"
+            >
+              Hard Skills
+            </h2>
+            <div
+              class="flex flex-wrap justify-center gap-4 z-0"
+            >
+              <div
+                class="flex justify-center"
+              >
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Programming Languages
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/javascript.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/javascript.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        javascript
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/typescript.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/typescript.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        typescript
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Frontend Development
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/reactjs.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/reactjs.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        reactjs
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/nextjs.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/nextjs.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        nextjs
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/html.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/html.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        html
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/css.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/css.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        css
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/sass.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/sass.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        sass
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/tailwindcss.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/tailwindcss.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        tailwindcss
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/chakra-ui.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/chakra-ui.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        chakra-ui
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/material-ui.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/material-ui.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        material-ui
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Backend Development
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/nodejs.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/nodejs.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        nodejs
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/expressjs.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/expressjs.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        expressjs
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Database Management
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/mongodb.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/mongodb.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        mongodb
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/postgresql.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/postgresql.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        postgresql
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/redis.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/redis.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        redis
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Version Control
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/git.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/git.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        git
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/github.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/github.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        github
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    CI/CD
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/github.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/github.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        github actions
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/travis-ci.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/travis-ci.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        travis-ci
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Testing
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/jest.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/jest.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        jest
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/react-testing-library.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/react-testing-library.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        react-testing-library
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/mocha.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/mocha.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        mocha
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/nyc.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/nyc.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        nyc
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/chai.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/chai.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        chai
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Others
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/redux.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/redux.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        redux
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/zod.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/zod.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        zod
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/firebase.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/firebase.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        firebase
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/vercel.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/vercel.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        vercel
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/aws.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/aws.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        aws
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-start"
+          >
+            <h2
+              class="text-xl font-bold mb-6 px-10 pl-16 md:px-10"
+              data-testid="soft skills"
+            >
+              Soft Skills
+            </h2>
+            <div
+              class="flex flex-wrap gap-4"
+            >
+              <div
+                class="flex justify-center"
+              >
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <div
+                    class="flex flex-col flex-wrap gap-2 justify-center items-center"
+                  >
+                    <img
+                      alt="/skills/soft-skills/problem-solving.svg image"
+                      class="w-12 h-12 mb-3 rounded-full shadow-lg"
+                      data-nimg="1"
+                      decoding="async"
+                      height="12"
+                      loading="lazy"
+                      src="/skills/soft-skills/problem-solving.svg"
+                      style="color: transparent;"
+                      width="12"
+                    />
+                    <p
+                      class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                    >
+                      problem-solving
+                    </p>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <div
+                    class="flex flex-col flex-wrap gap-2 justify-center items-center"
+                  >
+                    <img
+                      alt="/skills/soft-skills/collaboration.svg image"
+                      class="w-12 h-12 mb-3 rounded-full shadow-lg"
+                      data-nimg="1"
+                      decoding="async"
+                      height="12"
+                      loading="lazy"
+                      src="/skills/soft-skills/collaboration.svg"
+                      style="color: transparent;"
+                      width="12"
+                    />
+                    <p
+                      class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                    >
+                      collaboration
+                    </p>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <div
+                    class="flex flex-col flex-wrap gap-2 justify-center items-center"
+                  >
+                    <img
+                      alt="/skills/soft-skills/communication.svg image"
+                      class="w-12 h-12 mb-3 rounded-full shadow-lg"
+                      data-nimg="1"
+                      decoding="async"
+                      height="12"
+                      loading="lazy"
+                      src="/skills/soft-skills/communication.svg"
+                      style="color: transparent;"
+                      width="12"
+                    />
+                    <p
+                      class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                    >
+                      communication
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="pt-16 md:p-20 md:pb-0"
+        id="what-i-do"
+      >
+        <h1
+          class="font-bold text-2xl pb-2 border-b-2 border-solid border-current w-fit"
+          data-testid="what I do"
+        >
+          What I do
+        </h1>
+        <div
+          class="p-10 px-4 md:p-20"
+        >
+          <div
+            class="flex flex-col gap-2 items-center flex-wrap pb-16 md:px-10 text-center"
+          >
+            <div>
+              <svg
+                class="w-12 h-12"
+                fill="none"
+                stroke="currentColor"
+                strokewidth="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                
+      
+                <path
+                  d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"
+                  strokelinecap="round"
+                  strokelinejoin="round"
+                />
+                
+    
+              </svg>
+              
+    
+            </div>
+            <div
+              class="pb-4 font-semibold text-xl"
+            >
+              Build Software Applications for the Web
+            </div>
+            <div>
+              With over 4 years of software development experience, I contribute to building robust, scalable, and user friendly applications that solves user's problems. Checkout the portfolio section of this site to see some of my projects.
+            </div>
+          </div>
+          <div
+            class="flex flex-col gap-2 items-center flex-wrap pb-16 md:px-10 text-center"
+          >
+            <div>
+              <svg
+                class="w-12 h-12"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                
+      
+                <path
+                  d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                
+    
+              </svg>
+              
+  
+            </div>
+            <div
+              class="pb-4 font-semibold text-xl"
+            >
+              Digital Marketing
+            </div>
+            <div>
+              This is a new area. I try to increase brand awareness, drive traffic, generate leads, and ultimately, convert leads into customers or clients.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="pt-16 md:p-20 md:px-48 text-center"
+        id="Let's connect"
+      >
+        <h1
+          class="font-bold text-2xl text-center pb-6"
+        >
+          Let's connect
+        </h1>
+        <p>
+          My inbox is alway opens, whether you have a question or just want to connect. Feel free to reach out on Linkedin or simply send me a mail.
+        </p>
+        <div
+          class="py-2 flex justify-center gap-4"
+        >
+          <span>
+            <a
+              aria-label="Linkedin"
+              class="px-1"
+              href="https://www.linkedin.com/in/okwuidegbeemmanuel/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white"
+                fill="currentColor"
+                focusable="false"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+                />
+              </svg>
+            </a>
+          </span>
+          <span>
+            <a
+              aria-label="Twitter"
+              class="px-1"
+              href="https://www.linkedin.com/in/okwuidegbeemmanuel/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white"
+                fill="currentColor"
+                viewBox="0 0 20 17"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </span>
+        </div>
+        <button
+          aria-label="Let's connect"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          href="Let's connect"
+          type="button"
+        >
+          <a
+            aria-label="Email Me"
+            data-testid="email me"
+            href="mailto:okwuidegbeemmanuel@gmail.com"
+          >
+            Email Me
+          </a>
+        </button>
+      </div>
+    </main>
+    <div
+      class="pt-20"
+    >
+      <div
+        class="flex flex-col justify-center items-center gap-1 text-gray-300 p-6 shadow-sm"
+      >
+        <p
+          class="font-medium text-sm pb-2"
+        >
+          Created with ❤️ by Okwuidegbe Emmanuel
+        </p>
+        <p
+          class="font-medium text-sm"
+        >
+          2024 - 
+          2024
+           ©
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Page renders the index page 1`] = `
+<div>
+  <div
+    class="min-h-screen overflow-hidden w-full text-wrap py-2 dark:bg-zinc-900 text-gray-300 my-[-1rem] w-full"
+  >
+    <div
+      class="fixed w-full backdrop-blur-sm z-50"
+    >
+      <nav
+        class="border-gray-200 backdrop-blur-sm dark:bg-zinc-800/30 text-gray-300"
+      >
+        <div
+          class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-6 px-12"
+        >
+          <a
+            aria-label="Home"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+            href="#"
+          >
+            <img
+              alt="Emmanuel Logo"
+              class="h-8 w-8 rounded-2xl"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=64&q=75"
+              srcset="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=64&q=75 2x"
+              style="color: transparent;"
+              width="32"
+            />
+            <svg
+              class="w-6 h-6"
+              fill="text-black"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+          <button
+            aria-controls="navbar-default"
+            aria-expanded="false"
+            aria-label="Menu Dropdown "
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            data-collapse-toggle="navbar-default"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="w-5 h-5"
+              fill="none"
+              viewBox="0 0 17 14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1h15M1 7h15M1 13h15"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+          <div
+            class="items-center hidden md:flex space-x-6 rtl:space-x-reverse font-semibold text-md w-inherit"
+          >
+            <a
+              aria-label="Telephone Number"
+              href="tel:+2348141200636"
+            >
+              (+234) 8141200636
+            </a>
+            <a
+              aria-label="About"
+              href="#about"
+            >
+              <span>
+                About
+              </span>
+            </a>
+            <a
+              aria-label="Skills"
+              href="#skills"
+            >
+              <span>
+                Skills
+              </span>
+            </a>
+            <a
+              aria-label="What I Do"
+              href="#what-i-do"
+            >
+              <span>
+                What I do
+              </span>
+            </a>
+            <a
+              aria-label="Portfolio"
+              href="/portfolio"
+            >
+              Portfolio
+            </a>
+            <a
+              aria-label="Github Profile"
+              href="https://github.com/emma50"
+            >
+              <img
+                alt=""
+                class="w-5 h-5 bg-white rounded-xl"
+                data-nimg="1"
+                decoding="async"
+                height="5"
+                loading="lazy"
+                src="/skills/hard-skills/github.svg"
+                style="color: transparent;"
+                width="5"
+              />
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <main
+      class="px-10 md:px-20 my-4"
+    >
+      <div
+        class="flex flex-col md:flex-row gap-10 md:gap-3 items-center md:justify-center p-10 md:p-20"
+        id="about"
+      >
+        <div
+          class="mt-12 md:mt-0"
+        >
+          <img
+            alt="image description"
+            class="rounded-full shadow-xl shadow-gray-1000"
+            data-nimg="1"
+            decoding="async"
+            height="150"
+            loading="lazy"
+            src="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=640&q=75"
+            srcset="/_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=384&q=75 1x, /_next/image?url=%2Fimages%2Femmanuel-new-image.jpg&w=640&q=75 2x"
+            style="color: transparent;"
+            width="320"
+          />
+        </div>
+        <div
+          class="pt-4 md:pt-4 md:px-10 md:py-6"
+        >
+          <p
+            class="pt-4 font-bold text-lg"
+          >
+            &lt;Software Engineer/&gt;
+          </p>
+          <p
+            class="pt-4 font-bold"
+          >
+            Hello World! 👋, My name is Okwuidegbe Emmanuel
+          </p>
+          <p
+            class="md:max-w-96 md:text-wrap pt-4"
+          >
+            I am a passionate web developer with 4+ years of experience. I specialize in building cool things on the web.
+          </p>
+          <div
+            class="py-2 flex gap-4"
+          >
+            <span>
+              <a
+                aria-label="Linkedin"
+                class="px-1"
+                href="https://www.linkedin.com/in/okwuidegbeemmanuel/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg
+                  class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+                  />
+                </svg>
+              </a>
+            </span>
+            <span>
+              <a
+                aria-label="Github"
+                class="px-1"
+                href="https://github.com/emma50"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </span>
+            <span>
+              <a
+                aria-label="Twitter"
+                class="px-1"
+                href="https://www.linkedin.com/in/okwuidegbeemmanuel/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white"
+                  fill="currentColor"
+                  viewBox="0 0 20 17"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </a>
+            </span>
+          </div>
+          <button
+            aria-label="Let's connect"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            href="Let's connect"
+            type="button"
+          >
+            <a
+              aria-label="Let's connect"
+              href="#Let's connect"
+            >
+              Let's connect
+            </a>
+          </button>
+        </div>
+      </div>
+      <div
+        class="text-center pt-16 md:pt-20"
+        id="skills"
+      >
+        <h1
+          class="text-2xl font-bold mb-10"
+          data-testid="skills"
+        >
+          Skills
+        </h1>
+        <div
+          class="flex flex-wrap justify-center gap-4"
+        >
+          <div
+            class="text-start mb-10"
+          >
+            <h2
+              class="text-xl font-bold mb-6 px-10 pl-16 md:px-10"
+              data-testid="hard skills"
+            >
+              Hard Skills
+            </h2>
+            <div
+              class="flex flex-wrap justify-center gap-4 z-0"
+            >
+              <div
+                class="flex justify-center"
+              >
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Programming Languages
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/javascript.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/javascript.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        javascript
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/typescript.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/typescript.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        typescript
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Frontend Development
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/reactjs.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/reactjs.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        reactjs
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/nextjs.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/nextjs.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        nextjs
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/html.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/html.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        html
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/css.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/css.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        css
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/sass.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/sass.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        sass
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/tailwindcss.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/tailwindcss.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        tailwindcss
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/chakra-ui.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/chakra-ui.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        chakra-ui
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/material-ui.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/material-ui.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        material-ui
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Backend Development
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/nodejs.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/nodejs.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        nodejs
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/expressjs.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/expressjs.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        expressjs
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Database Management
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/mongodb.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/mongodb.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        mongodb
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/postgresql.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/postgresql.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        postgresql
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/redis.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/redis.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        redis
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Version Control
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/git.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/git.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        git
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/github.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/github.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        github
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    CI/CD
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/github.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/github.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        github actions
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/travis-ci.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/travis-ci.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        travis-ci
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Testing
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/jest.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/jest.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        jest
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/react-testing-library.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/react-testing-library.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        react-testing-library
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/mocha.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/mocha.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        mocha
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/nyc.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/nyc.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        nyc
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/chai.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/chai.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        chai
+                      </p>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <h1
+                    class="mb-4 text-2xl font-bold tracking-tight text-gray-900 text-center"
+                  >
+                    Others
+                  </h1>
+                  <div
+                    class="flex flex-wrap gap-2 justify-center items-center px-8 md:px-2"
+                  >
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/redux.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/redux.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        redux
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/zod.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/zod.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        zod
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/firebase.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/firebase.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        firebase
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/vercel.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/vercel.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        vercel
+                      </p>
+                    </div>
+                    <div
+                      class="flex flex-col flex-wrap gap-2"
+                    >
+                      <img
+                        alt="/skills/hard-skills/aws.svg image"
+                        class="w-8 h-8 mb-3 rounded-full shadow-lg self-center"
+                        data-nimg="1"
+                        decoding="async"
+                        height="8"
+                        loading="lazy"
+                        src="/skills/hard-skills/aws.svg"
+                        style="color: transparent;"
+                        width="8"
+                      />
+                      <p
+                        class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                      >
+                        aws
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="text-start"
+          >
+            <h2
+              class="text-xl font-bold mb-6 px-10 pl-16 md:px-10"
+              data-testid="soft skills"
+            >
+              Soft Skills
+            </h2>
+            <div
+              class="flex flex-wrap gap-4"
+            >
+              <div
+                class="flex justify-center"
+              >
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <div
+                    class="flex flex-col flex-wrap gap-2 justify-center items-center"
+                  >
+                    <img
+                      alt="/skills/soft-skills/problem-solving.svg image"
+                      class="w-12 h-12 mb-3 rounded-full shadow-lg"
+                      data-nimg="1"
+                      decoding="async"
+                      height="12"
+                      loading="lazy"
+                      src="/skills/soft-skills/problem-solving.svg"
+                      style="color: transparent;"
+                      width="12"
+                    />
+                    <p
+                      class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                    >
+                      problem-solving
+                    </p>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <div
+                    class="flex flex-col flex-wrap gap-2 justify-center items-center"
+                  >
+                    <img
+                      alt="/skills/soft-skills/collaboration.svg image"
+                      class="w-12 h-12 mb-3 rounded-full shadow-lg"
+                      data-nimg="1"
+                      decoding="async"
+                      height="12"
+                      loading="lazy"
+                      src="/skills/soft-skills/collaboration.svg"
+                      style="color: transparent;"
+                      width="12"
+                    />
+                    <p
+                      class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                    >
+                      collaboration
+                    </p>
+                  </div>
+                </a>
+                <a
+                  aria-label="Home"
+                  class="block max-w-sm p-4 bg-white border w-full h-full border-gray-200 rounded-lg shadow"
+                  href="#"
+                >
+                  <div
+                    class="flex flex-col flex-wrap gap-2 justify-center items-center"
+                  >
+                    <img
+                      alt="/skills/soft-skills/communication.svg image"
+                      class="w-12 h-12 mb-3 rounded-full shadow-lg"
+                      data-nimg="1"
+                      decoding="async"
+                      height="12"
+                      loading="lazy"
+                      src="/skills/soft-skills/communication.svg"
+                      style="color: transparent;"
+                      width="12"
+                    />
+                    <p
+                      class="font-normal text-lg text-gray-700 dark:text-gray-400"
+                    >
+                      communication
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="pt-16 md:p-20 md:pb-0"
+        id="what-i-do"
+      >
+        <h1
+          class="font-bold text-2xl pb-2 border-b-2 border-solid border-current w-fit"
+          data-testid="what I do"
+        >
+          What I do
+        </h1>
+        <div
+          class="p-10 px-4 md:p-20"
+        >
+          <div
+            class="flex flex-col gap-2 items-center flex-wrap pb-16 md:px-10 text-center"
+          >
+            <div>
+              <svg
+                class="w-12 h-12"
+                fill="none"
+                stroke="currentColor"
+                strokewidth="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                
+      
+                <path
+                  d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z"
+                  strokelinecap="round"
+                  strokelinejoin="round"
+                />
+                
+    
+              </svg>
+              
+    
+            </div>
+            <div
+              class="pb-4 font-semibold text-xl"
+            >
+              Build Software Applications for the Web
+            </div>
+            <div>
+              With over 4 years of software development experience, I contribute to building robust, scalable, and user friendly applications that solves user's problems. Checkout the portfolio section of this site to see some of my projects.
+            </div>
+          </div>
+          <div
+            class="flex flex-col gap-2 items-center flex-wrap pb-16 md:px-10 text-center"
+          >
+            <div>
+              <svg
+                class="w-12 h-12"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                
+      
+                <path
+                  d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                
+    
+              </svg>
+              
+  
+            </div>
+            <div
+              class="pb-4 font-semibold text-xl"
+            >
+              Digital Marketing
+            </div>
+            <div>
+              This is a new area. I try to increase brand awareness, drive traffic, generate leads, and ultimately, convert leads into customers or clients.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="pt-16 md:p-20 md:px-48 text-center"
+        id="Let's connect"
+      >
+        <h1
+          class="font-bold text-2xl text-center pb-6"
+        >
+          Let's connect
+        </h1>
+        <p>
+          My inbox is alway opens, whether you have a question or just want to connect. Feel free to reach out on Linkedin or simply send me a mail.
+        </p>
+        <div
+          class="py-2 flex justify-center gap-4"
+        >
+          <span>
+            <a
+              aria-label="Linkedin"
+              class="px-1"
+              href="https://www.linkedin.com/in/okwuidegbeemmanuel/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white"
+                fill="currentColor"
+                focusable="false"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+                />
+              </svg>
+            </a>
+          </span>
+          <span>
+            <a
+              aria-label="Twitter"
+              class="px-1"
+              href="https://www.linkedin.com/in/okwuidegbeemmanuel/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <svg
+                aria-hidden="true"
+                class="w-8 h-8 me-2 px-1 rounded-full border-2 border-white"
+                fill="currentColor"
+                viewBox="0 0 20 17"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+          </span>
+        </div>
+        <button
+          aria-label="Let's connect"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+          href="Let's connect"
+          type="button"
+        >
+          <a
+            aria-label="Email Me"
+            data-testid="email me"
+            href="mailto:okwuidegbeemmanuel@gmail.com"
+          >
+            Email Me
+          </a>
+        </button>
+      </div>
+    </main>
+    <div
+      class="pt-20"
+    >
+      <div
+        class="flex flex-col justify-center items-center gap-1 text-gray-300 p-6 shadow-sm"
+      >
+        <p
+          class="font-medium text-sm pb-2"
+        >
+          Created with ❤️ by Okwuidegbe Emmanuel
+        </p>
+        <p
+          class="font-medium text-sm"
+        >
+          2024 - 
+          2024
+           ©
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

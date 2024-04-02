@@ -19,8 +19,8 @@ export default function Portfolio () {
       <main className="grid-cols-2 px-10 md:px-20 py-8">
         <div className="flex flex-col md:flex-row items-center p-6">
           <div className="flex flex-col gap-6 md:gap-8 pt-12">
-            <h1 className="font-bold text-3xl">Portfolio</h1>
-            <p>Here are some notable projects I have worked on. I try to update as soon as I can.</p>
+            <h1 className="font-bold text-3xl" data-testid='portfolio'>Portfolio</h1>
+            <p data-testid='projects'>Here are some notable projects I have worked on. I try to update as soon as I can.</p>
           </div>
         </div>
         <div className="flex flex-col flex-wrap md:flex-row gap-10 md:gap-3 items-center justify-center p-4 md:p-2">
