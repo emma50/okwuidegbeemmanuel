@@ -1,7 +1,7 @@
 "use client"
 
 import { useContext } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 import { services } from "./lib/data";
 import { GlobalContext } from "./context";
@@ -19,14 +19,14 @@ export default function Page() {
       </div>
       <main className="px-10 md:px-20 my-4">
         <div className="flex flex-col md:flex-row gap-10 md:gap-3 items-center md:justify-center p-10 md:p-20" id='about'>
-          <div className="mt-12 md:mt-0">          
-            <Image width={320} height={150} className="rounded-full shadow-xl shadow-gray-1000" src="/images/emmanuel-new-image.jpg" alt="image description"/>
+          <div className="mt-12 md:mt-0 max-w-96 max-h-72 min-w-36 min-h-36">          
+            <img className="rounded-full shadow-xl shadow-gray-1000" src="/images/emmanuel-new-image.jpg" alt="image description"/>
           </div>
-          <div className="pt-4 md:pt-4 md:px-10 md:py-6">
+          <div className="pt-2 md:pt-4 md:px-10 md:py-6">
             <p className="pt-4 font-bold text-lg">{"<Software Engineer/>"}</p>
             <p className="pt-4 font-bold">{"Hello World! 👋, My name is Okwuidegbe Emmanuel"}</p>
             <p className="md:max-w-96 md:text-wrap pt-4">{"I am a passionate web developer with 4+ years of experience. I specialize in building cool things on the web."}</p>
-            <div className="py-2 flex gap-4">
+            <div className="py-1 flex gap-4">
               <span>
                 <a href="https://www.linkedin.com/in/okwuidegbeemmanuel/" aria-label="Linkedin" target="_blank" rel="noreferrer" className="px-1">
                   <svg className="w-8 h-8 me-2 px-1 rounded-full border-2 border-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" focusable="false">
@@ -42,16 +42,14 @@ export default function Page() {
                 </a>
               </span>
               <span>
-                <a href="https://www.linkedin.com/in/okwuidegbeemmanuel/" aria-label="Twitter" target="_blank" rel="noreferrer" className="px-1">
+                <a href="https://twitter.com/OkwuidegbeEmma1" aria-label="Twitter" target="_blank" rel="noreferrer" className="px-1">
                   <svg className="w-8 h-8 me-2 px-1 rounded-full border-2 border-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
                     <path fillRule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clipRule="evenodd"/>
                   </svg>
                 </a>
               </span>
             </div>
-            <button type="button" href="Let's connect" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" aria-label="Let's connect">
-              <a href="#Let's connect" aria-label="Let's connect">{"Let's connect"}</a>
-            </button>
+            <a href="#Let's connect" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800" aria-label="Let's connect">{"Let's connect"}</a>
           </div>
         </div>
         <div className="text-center pt-16 md:pt-20" id='skills'> 

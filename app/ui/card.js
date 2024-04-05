@@ -10,7 +10,7 @@ export const Card = ({ele}) => (
           {ele.skills.map((skill) => (
             <div key={skill.id} className="flex flex-col flex-wrap gap-2">
               <Image width={8} height={8} className="w-8 h-8 mb-3 rounded-full shadow-lg self-center" src={skill.image} alt={`${skill.image} image`}/>
-              <p  className="font-normal text-lg text-gray-700 dark:text-gray-400">{skill.name}</p>
+              <p className="font-normal text-lg text-gray-700 dark:text-gray-400">{skill.name}</p>
             </div>
           ))}
         </div>
