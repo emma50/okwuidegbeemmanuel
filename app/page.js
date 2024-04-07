@@ -18,11 +18,11 @@ export default function Page() {
         <Header/>
       </div>
       <main className="px-10 md:px-20 my-4">
-        <div className="flex flex-col md:flex-row gap-10 md:gap-3 items-center md:justify-center p-10 md:p-20" id='about'>
-          <div className="mt-12 md:mt-0 max-w-96 max-h-72 min-w-36 min-h-36">          
+        <div className="flex flex-col md:flex-row gap-10 md:gap-12 items-center md:justify-center p-10 md:p-20 md:pt-10" id='about'>
+          <div className="mt-12 md:mt-0 max-w-72 max-h-60 md:max-w-96 md:max-h-72 min-w-56 min-h-56">          
             <img className="rounded-full shadow-xl shadow-gray-1000" src="/images/emmanuel-new-image.jpg" alt="image description"/>
           </div>
-          <div className="pt-2 md:pt-4 md:px-10 md:py-6">
+          <div className="pt-2 self-center justify-self-center md:pt-20">
             <p className="pt-4 font-bold text-lg">{"<Software Engineer/>"}</p>
             <p className="pt-4 font-bold">{"Hello World! 👋, My name is Okwuidegbe Emmanuel"}</p>
             <p className="md:max-w-96 md:text-wrap pt-4">{"I am a passionate web developer with 4+ years of experience. I specialize in building cool things on the web."}</p>
