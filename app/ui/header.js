@@ -44,6 +44,7 @@ export default function Header () {
             <span onClick={() => router.push('/#what-i-do')}>What I do</span>
           </a>   
           <a href="/portfolio" aria-label='Portfolio'>Portfolio</a>
+          <a href="/resume/Okwuidegbe-Emmanuel-Resume.pdf" aria-label='Resume'>Resume</a>
           <a href="https://github.com/emma50" aria-label='Github Profile'>
             <img src='/skills/hard-skills/github.svg' alt='' className='w-5 h-5 bg-white rounded-xl'/>
           </a>             
@@ -90,6 +91,9 @@ export default function Header () {
                 <a href="/portfolio" aria-label='Portfolio'>Portfolio</a> 
               </li>
               <li className="flex items-center w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" onClick={() => setToggleButton(false)}>
+                <a href="/resume/Okwuidegbe-Emmanuel-Resume.pdf" aria-label='Resume'>Resume</a> 
+              </li>
+              <li className="flex items-center w-inherit p-2 hover:backdrop-blur-sm hover:bg-white/30 cursor-pointer" onClick={() => se.tToggleButton(false)}>
                 <a href="https://github.com/emma50" aria-label='Github Profile'>
                   <Image width={5} height={5} src='/skills/hard-skills/github.svg' alt='' className='w-5 h-5 bg-white rounded-xl'/>
                 </a> 
