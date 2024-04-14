@@ -507,3 +507,146 @@ export const portfolio = [
     ]
   },
 ]
+
+export const certifications = [
+  {
+    id: 1,
+    body: 'Great Learning',
+    certificate: 'Project Management',
+    issued: {
+      at: 'March 2023',
+      expiration: 'No Expiration Date',
+    },
+    verify_authenticity: 'https://verify.mygreatlearning.com/verify/KLGVUMQI',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+  },
+  {
+    id: 2,
+    body: 'Cousera',
+    certificate: 'Jobberman Soft Skills Course',
+    issued: {
+      at: 'June 2021',
+      expiration: 'No Expiration Date',
+    },
+    verify_authenticity: 'https://www.coursera.org/account/accomplishments/certificate/3BXBMB9N9G8X',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+  },
+  {
+    id: 3,
+    body: 'Pluralsight',
+    certificate: 'TCP/IP Networking for Developers',
+    issued: {
+      at: 'May 2022',
+      expiration: 'No Expiration Date',
+    },
+    verify_authenticity: 'https://app.pluralsight.com/learner/user/courses/v2/7e075e1b-6adc-48c8-b26c-23cf6b2958ca/certificate',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+  },
+  {
+    id: 4,
+    body: 'FreeCodeCamp',
+    certificate: 'Javascript Algorithm and Data Structures',
+    issued: {
+      at: 'December 2020',
+      expiration: 'No Expiration Date',
+    },
+    verify_authenticity: 'https://freecodecamp.org/certification/emma50/javascript-algorithms-and-data-structures',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+  },
+  {
+    id: 5,
+    body: 'LinkedIn',
+    certificate: 'Git Intermediate Techniques',
+    issued: {
+      at: 'October 2020',
+      expiration: 'No Expiration Date',
+    },
+    verify_authenticity: 'https://www.linkedin.com/learning/certificates/1a2534a7d5456ab70e1ef2a59e1df31d99ea951772bcc3e5eadf393cc7a13d00?trk=backfilled_certificate',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+  },
+  {
+    id: 6,
+    body: 'LinkedIn',
+    certificate: 'Git: Branches, Merges, Remote',
+    issued: {
+      at: 'October 2020',
+      expiration: 'No Expiration Date',
+    },
+    verify_authenticity: 'https://www.linkedin.com/learning/certificates/62ed3574f35ffc5b3a2287133e3e111ab15d70671797cee7319dcde2780532a9?trk=backfilled_certificate',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+  },
+  {
+    id: 7,
+    body: 'LinkedIn',
+    certificate: 'SQL Essential Training',
+    issued: {
+      at: 'December 2020',
+      expiration: 'No Expiration Date',
+    },
+    verify_authenticity: 'https://www.linkedin.com/learning/certificates/c8a2f3a981924a6ae4a9f091157d2088f1b54e654fdaab70aa8875d3bf839371?trk=backfilled_certificate',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+  },
+  {
+    id: 8,
+    body: 'Cisco Networking Academy',
+    certificate: 'Introduction to Cybersecurity',
+    issued: {
+      at: 'May 2020',
+      expiration: 'No Expiration Date',
+    },
+    verify_authenticity: 'https://www.credly.com/badges/a85cc58b-68cc-4b68-a49f-572d6c8eb116',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+  },
+  {
+    id: 9,
+    body: 'FreeCodeCamp',
+    certificate: 'Responsive Wed Design',
+    issued: {
+      at: 'June 2019',
+      expiration: 'No Expiration Date',
+    },
+    verify_authenticity: 'https://www.freecodecamp.org/certification/emma50/responsive-web-design',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+  },
+  {
+    id: 10,
+    body: 'Grow with Google Africa',
+    certificate: 'The Fundamentals of Digital Marketing',
+    issued: {
+      at: 'June 2018',
+      expiration: 'No Expiration Date',
+    },
+    verify_authenticity: 'https://grow.google/intl/ssa-en/certificate-validation/',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+  },
+]
