@@ -1,13 +1,6 @@
 "use client"
 
 import { useContext } from "react";
-// import Image from "next/image";
-
-// import { services } from "./lib/data";
-// import { GlobalContext } from "./context";
-// import Header from "./ui/header";
-// import Footer from "./ui/footer";
-// import { CardList } from "./ui/card-list";
 
 import { services } from "../lib/data";
 import { GlobalContext } from "../context";
@@ -16,10 +9,10 @@ import Footer from "../ui/footer";
 import { CardList } from "../ui/card-list";
 
 export default function Client() {
-  const { toggleMode } = useContext(GlobalContext);
+  const { mode } = useContext(GlobalContext);
   
   return (
-    <div className={`min-h-screen overflow-hidden w-full text-wrap py-2 ${!toggleMode ? 'dark:bg-zinc-900 text-gray-300' : 'bg-white text-black'} my-[-1rem] w-full`}>
+    <div className={`min-h-screen overflow-hidden w-full text-wrap py-2 ${!mode ? 'dark:bg-zinc-900 text-gray-300' : 'bg-white text-black'} my-[-1rem] w-full`}>
       <div className="fixed w-full backdrop-blur-sm z-50">
         <Header/>
       </div>

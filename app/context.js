@@ -1,12 +1,33 @@
 'use client'
 
-import { createContext, useState, useEffect } from 'react';
+import { 
+  createContext, 
+  useState, 
+  useEffect, 
+  useCallback, 
+  useMemo 
+} from 'react';
 
 export const GlobalContext = createContext('');
 
 export function CustomContext ({children}) {
-  const [toggleMode, setToggleMode] = useState(true)
-  const [toggleButton, setToggleButton] = useState(false)
+  // const [toggleMode, setToggleMode] = useState(true)
+  // const [toggleButton, setToggleButton] = useState(false)
+
+  const [mode, setMode] = useState(true)
+  const [button, setButton] = useState(false)
+
+  const toggleMode = useCallback(() => setMode(!mode), [mode])
+  const toggleButton = useCallback(() => setButton(!button), [button])
+
+  const value = useMemo(() => {
+    return  {
+      mode,
+      button,
+      toggleMode,
+      toggleButton,
+    }
+  }, [mode, button, toggleMode, toggleButton])
 
   useEffect(() => {
     const registerServiceWorker = async () => {
@@ -33,14 +54,7 @@ export function CustomContext ({children}) {
   }, [])
 
   return (
-    <GlobalContext.Provider 
-      value={{ 
-        toggleMode, 
-        setToggleMode,
-        toggleButton,
-        setToggleButton 
-      }}
-    >
+    <GlobalContext.Provider value={value}>
       {children}
     </GlobalContext.Provider>
   )

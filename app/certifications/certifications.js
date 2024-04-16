@@ -1,7 +1,6 @@
 'use client'
 
 import { useContext } from "react"
-import Image from "next/image"
 
 import { GlobalContext } from "../context"
 import { certifications } from "../lib/data"
@@ -9,10 +8,10 @@ import Header from "../ui/header"
 import Footer from "../ui/footer"
 
 export default function Certifications () {
-  const { toggleMode } = useContext(GlobalContext);
+  const { mode } = useContext(GlobalContext);
 
   return (
-    <div className={`min-h-screen overflow-hidden text-wrap py-2  ${!toggleMode ? 'dark:bg-zinc-900 text-white' : 'bg-white text-black'} my-[-1rem]`}>
+    <div className={`min-h-screen overflow-hidden text-wrap py-2  ${!mode ? 'dark:bg-zinc-900 text-white' : 'bg-white text-black'} my-[-1rem]`}>
       <div className="fixed w-full backdrop-blur-sm z-50">
         <Header/>
       </div>
