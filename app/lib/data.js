@@ -542,7 +542,7 @@ export const certifications = [
     body: 'Pluralsight',
     certificate: 'TCP/IP Networking for Developers',
     issued: {
-      at: 'May 2022',
+      at: 'May 2021',
       expiration: 'No Expiration Date',
     },
     verify_authenticity: 'https://app.pluralsight.com/learner/user/courses/v2/7e075e1b-6adc-48c8-b26c-23cf6b2958ca/certificate',
