@@ -110,7 +110,7 @@ export const portfolio = [
   {
     id: 1,
     title: 'CoopX',
-    content: "CoopX is a cooperative loan applications that offer an alternative financing option, particularly for individuals who may face challenges in obtaining loans from traditional banks. It promote financial inclusion, shared responsibility, and community support.",
+    content: "CoopX is a cooperative loan application that offer an alternative financing option, particularly for individuals who may face challenges in obtaining loans from traditional banks. It promote financial inclusion and shared responsibility.",
     githubLink: 'https://github.com/d-alchemist/coopx-webapp',
     githubIcon: '/skills/hard-skills/github.svg',
     link: 'https://coopx-webapp-dev.vercel.app/login',
@@ -138,35 +138,23 @@ export const portfolio = [
       },
       {
         id: 5,
-        name: 'Nodejs'
-      },
-      {
-        id: 6,
         name: 'Postgresql'
       },
       {
-        id: 7,
+        id: 6,
         name: 'Redux'
       },
       {
-        id: 8,
+        id: 7,
         name: 'Tanstack'
       },
       {
-        id: 9,
+        id: 8,
         name: 'Formik'
       },
       {
-        id: 10,
+        id: 9,
         name: 'Axios'
-      },
-      {
-        id: 11,
-        name: 'Prettier'
-      },
-      {
-        id: 12,
-        name: 'Husky'
       },
     ]
   },
