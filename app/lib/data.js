@@ -109,6 +109,69 @@ export const services = [
 export const portfolio = [
   {
     id: 1,
+    title: 'CoopX',
+    content: "CoopX is a cooperative loan applications that offer an alternative financing option, particularly for individuals who may face challenges in obtaining loans from traditional banks. It promote financial inclusion, shared responsibility, and community support.",
+    githubLink: 'https://github.com/d-alchemist/coopx-webapp',
+    githubIcon: '/skills/hard-skills/github.svg',
+    link: 'https://coopx-webapp-dev.vercel.app/login',
+    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `,
+    status: 'Private',
+    stack: [
+      {
+        id: 1,
+        name: 'Typescript'
+      },
+      {
+        id: 2,
+        name: 'React'
+      },
+      {
+        id: 3,
+        name: 'Nextjs'
+      },
+      {
+        id: 4,
+        name: 'ChakraUI'
+      },
+      {
+        id: 5,
+        name: 'Nodejs'
+      },
+      {
+        id: 6,
+        name: 'Postgresql'
+      },
+      {
+        id: 7,
+        name: 'Redux'
+      },
+      {
+        id: 8,
+        name: 'Tanstack'
+      },
+      {
+        id: 9,
+        name: 'Formik'
+      },
+      {
+        id: 10,
+        name: 'Axios'
+      },
+      {
+        id: 11,
+        name: 'Prettier'
+      },
+      {
+        id: 12,
+        name: 'Husky'
+      },
+    ]
+  },
+  {
+    id: 2,
     title: 'Nexaya Frontend Assessment',
     content: "A Nexaya frontend assessment task.",
     githubLink: 'https://github.com/emma50/nexaya-frontend-assessment',
@@ -139,7 +202,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: 'Shopps',
     content: 'A standard e-commerce platform',
     githubLink: 'https://github.com/emma50/shopps',
@@ -202,7 +265,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: 'Quick Credit API',
     content: 'quick-credit-api is an online lending platform that provides short term soft loans to individuals. This helps solve problems of financial inclusion as a way to alleviate poverty and empower low income earners.',
     githubLink: 'https://github.com/emma50/quick-credit-api',
@@ -241,7 +304,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: 'Expensify',
     content: 'An expense tracker',
     githubLink: 'https://github.com/emma50/expensify',
@@ -272,7 +335,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: 'Ticket booking',
     content: 'A mini ticket booking service.',
     githubLink: 'https://github.com/emma50/ticket-booking',
@@ -355,7 +418,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     title: 'E-commerce',
     content: 'A simple e-commerce API.',
     githubLink: 'https://github.com/emma50/e-commerce',
@@ -410,7 +473,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     title: 'Zuri plugin youtube music video',
     content: 'A youtube plugin music video for zuri application',
     githubLink: 'https://github.com/emma50/zc_plugin_youtube_music_video',
@@ -441,7 +504,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     title: 'Random Quote Machine',
     content: 'An application that randomly generates quote',
     githubLink: 'https://github.com/emma50/random-quote-machine',
@@ -468,7 +531,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     title: 'Funconnect Hub',
     content: "Funconnect is an app that allow users seamlessly navigate recreational centres around them, plan a trip efficiently and create events for link-up with friends.",
     githubLink: '',
