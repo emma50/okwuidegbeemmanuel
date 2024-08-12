@@ -152,10 +152,6 @@ export const portfolio = [
         id: 8,
         name: 'Formik'
       },
-      {
-        id: 9,
-        name: 'Axios'
-      },
     ]
   },
   {
