@@ -18,7 +18,7 @@ export default function Certifications () {
       <main className="grid-cols-2 px-10 md:px-20 py-8">
         <div className="flex flex-col md:flex-row items-center p-6">
           <div className="flex flex-col gap-6 md:gap-8 pt-12">
-            <h1 className="font-bold text-3xl" data-testid='certifications'>certifications</h1>
+            <h1 className="font-bold text-3xl" data-testid='certifications'>Certifications</h1>
             <p data-testid='projects'>Here are some notable certifications I possess. I try to update as soon as I can.</p>
           </div>
         </div>
