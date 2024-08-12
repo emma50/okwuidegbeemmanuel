@@ -27,7 +27,7 @@ export default function Portfolio () {
           {
             portfolio.map((ele) => {
               return (
-                <div key={ele.id} className="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-32 border-gray-200 rounded-lg shadow">
+                <div key={ele.id} className="block p-2 px-4 m-4 border max-w-sm max-h-lg md:w-80 md:h-80 border-gray-200 rounded-lg shadow">
                   <div className="flex gap-4 justify-between pb-6">
                     <div>{ele.status}</div>
                     <div className="flex gap-2">
