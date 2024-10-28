@@ -106,146 +106,61 @@ export const services = [
   }
 ]
 
+export const linkIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+  </svg>
+  `
 export const portfolio = [
   {
     id: 1,
+    title: 'Protronics',
+    content: "Protronics Inc. is a business that specialize in delivering exceptional PCB assembly solutions. It's mission is to enable it's clients succeed in their technological endeavors by consistently providing high-quality, customizable electronic manufacturing services.",
+    githubLink: 'https://github.com/Trust-Finance/protronics-webapp',
+    githubIcon: '/skills/hard-skills/github.svg',
+    link: 'https://www.protronics-inc.com/',
+    linkIcon,
+    status: 'Private',
+    stack: [
+      { id: 1, name: 'Typescript' },
+      { id: 2, name: 'React' },
+      { id: 3, name: 'Nextjs' },
+      { id: 4, name: 'Tailwindcss' },
+    ]
+  },
+  {
+    id: 2,
     title: 'CoopX',
     content: "CoopX is a cooperative loan application that offer an alternative financing option, particularly for individuals who may face challenges in obtaining loans from traditional banks. It promote financial inclusion and shared responsibility.",
     githubLink: 'https://github.com/d-alchemist/coopx-webapp',
     githubIcon: '/skills/hard-skills/github.svg',
     link: 'https://coopx-webapp-dev.vercel.app/login',
-    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-  </svg>
-  `,
+    linkIcon,
     status: 'Private',
     stack: [
-      {
-        id: 1,
-        name: 'Typescript'
-      },
-      {
-        id: 2,
-        name: 'React'
-      },
-      {
-        id: 3,
-        name: 'Nextjs'
-      },
-      {
-        id: 4,
-        name: 'ChakraUI'
-      },
-      {
-        id: 5,
-        name: 'Postgresql'
-      },
-      {
-        id: 6,
-        name: 'Redux'
-      },
-      {
-        id: 7,
-        name: 'Tanstack'
-      },
-      {
-        id: 8,
-        name: 'Formik'
-      },
+      { id: 1, name: 'Typescript' },
+      { id: 2, name: 'ReactJS' },
+      { id: 3, name: 'NextJS' },
+      { id: 4, name: 'ChakraUI' },
+      { id: 5, name: 'Postgresql' },
+      { id: 6, name: 'Redux' },
+      { id: 7, name: 'Tanstack' },
+      { id: 8, name: 'Formik' },
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: 'Nexaya Frontend Assessment',
     content: "A Nexaya frontend assessment task.",
     githubLink: 'https://github.com/emma50/nexaya-frontend-assessment',
     githubIcon: '/skills/hard-skills/github.svg',
     link: 'https://nexaya-frontend-assessment.vercel.app/login',
-    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-  </svg>
-  `,
+    linkIcon,
     status: 'Private',
     stack: [
-      {
-        id: 1,
-        name: 'Javascript'
-      },
-      {
-        id: 2,
-        name: 'React'
-      },
-      {
-        id: 3,
-        name: 'Nextjs'
-      },
-      {
-        id: 4,
-        name: 'Tailwindcss'
-      },
-    ]
-  },
-  {
-    id: 3,
-    title: 'Shopps',
-    content: 'A standard e-commerce platform',
-    githubLink: 'https://github.com/emma50/shopps',
-    githubIcon: '/skills/hard-skills/github.svg',
-    link: 'https://shopps.vercel.app/',
-    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-  </svg>
-  `,
-    status: 'Public',
-    stack: [
-      {
-        id: 1,
-        name: 'Javascript'
-      },
-      {
-        id: 2,
-        name: 'React'
-      },
-      {
-        id: 3,
-        name: 'Nextjs'
-      },
-      {
-        id: 4,
-        name: 'NextAuth'
-      },
-      {
-        id: 5,
-        name: 'Sass'
-      },
-      {
-        id: 6,
-        name: 'Stripe'
-      },
-      {
-        id: 7,
-        name: 'Paypal'
-      },
-      {
-        id: 8,
-        name: 'MongoDB'
-      },
-      {
-        id: 9,
-        name: 'Vercel'
-      },
-      {
-        id: 10,
-        name: 'Redux'
-      },
-      {
-        id: 11,
-        name: 'Redux Toolkit'
-      },
-      {
-        id: 12,
-        name: 'Redux Persist'
-      }
+      { id: 1, name: 'Javascript' },
+      { id: 2, name: 'React' },
+      { id: 3, name: 'NextJS' },
+      { id: 4, name: 'Tailwindcss' },
     ]
   },
   {
@@ -255,302 +170,66 @@ export const portfolio = [
     githubLink: 'https://github.com/emma50/quick-credit-api',
     githubIcon: '/skills/hard-skills/github.svg',
     link: '',
-    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-  </svg>
-  `,
+    linkIcon,
     status: 'Public',
     stack: [
-      {
-        id: 1,
-        name: 'Javascript'
-      },
-      {
-        id: 2,
-        name: 'Nodejs'
-      },
-      {
-        id: 3,
-        name: 'JWT'
-      },
-      {
-        id: 4,
-        name: 'Travisci'
-      },
-      {
-        id: 5,
-        name: 'Expressjs'
-      },
-      {
-        id: 6,
-        name: 'Postgresql'
-      },
+      { id: 1, name: 'Javascript' },
+      { id: 2, name: 'Nodejs' },
+      { id: 3, name: 'JWT' },
+      { id: 4, name: 'TravisCI' },
+      { id: 5, name: 'ExpressSJS' },
+      { id: 6, name: 'Postgresql' },
     ]
   },
   {
     id: 5,
-    title: 'Expensify',
-    content: 'An expense tracker',
-    githubLink: 'https://github.com/emma50/expensify',
-    githubIcon: '/skills/hard-skills/github.svg',
-    link: '',
-    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-  </svg>
-  `,
-    status: 'Public',
-    stack: [
-      {
-        id: 1,
-        name: 'Javascript'
-      },
-      {
-        id: 2,
-        name: 'React'
-      },
-      {
-        id: 3,
-        name: 'Firebase'
-      },
-      {
-        id: 4,
-        name: 'Redux'
-      },
-    ]
-  },
-  {
-    id: 6,
     title: 'Ticket booking',
     content: 'A mini ticket booking service.',
     githubLink: 'https://github.com/emma50/ticket-booking',
     githubIcon: '/skills/hard-skills/github.svg',
     link: '',
-    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-  </svg>
-  `,
+    linkIcon,
     status: 'Public',
     stack: [
-      {
-        id: 1,
-        name: 'Typescript'
-      },
-      {
-        id: 2,
-        name: 'React'
-      },
-      {
-        id: 3,
-        name: 'Nextjs'
-      },
-      {
-        id: 4,
-        name: 'Nodejs'
-      },
-      {
-        id: 5,
-        name: 'Expressjs'
-      },
-      {
-        id: 6,
-        name: 'NATS streaming server'
-      },
-      {
-        id: 7,
-        name: 'MongoDB'
-      },
-      {
-        id: 8,
-        name: 'Github Actions'
-      },
-      {
-        id: 9,
-        name: 'Stripe',
-      },
-      {
-        id: 10,
-        name: 'Bull'
-      },
-      {
-        id: 11,
-        name: 'Docker'
-      },
-      {
-        id: 12,
-        name: 'Kubernetes'
-      },
-      {
-        id: 13,
-        name: 'Nginx'
-      },
-      {
-        id: 14,
-        name: 'Skaffold'
-      },
-      {
-        id: 15,
-        name: 'Microservice'
-      },
-      {
-        id: 16,
-        name: 'Redis'
-      },
-      {
-        id: 17,
-        name: 'Digital Ocean'
-      },
+      { id: 1, name: 'Typescript' },
+      { id: 2, name: 'ReactJS' },
+      { id: 3, name: 'NextJS' },
+      { id: 4, name: 'NodeJS' },
+      { id: 5, name: 'ExpressJS' },
+      { id: 6, name: 'NATS streaming server' },
+      { id: 7, name: 'MongoDB' },
+      { id: 8, name: 'Github Actions' },
+      { id: 9, name: 'Stripe', },
+      { id: 10, name: 'Bull' },
+      { id: 11, name: 'Docker' },
+      { id: 12, name: 'Kubernetes' },
+      { id: 13, name: 'Nginx' },
+      { id: 14, name: 'Skaffold' },
+      { id: 15, name: 'Microservice' },
+      { id: 16, name: 'Redis' },
+      { id: 17, name: 'Digital Ocean' },
     ]
   },
   {
-    id: 7,
+    id: 6,
     title: 'E-commerce',
     content: 'A simple e-commerce API.',
     githubLink: 'https://github.com/emma50/e-commerce',
     githubIcon: '/skills/hard-skills/github.svg',
     link: '',
-    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-  </svg>
-  `,
+    linkIcon,
     status: 'Public',
     stack: [
-      {
-        id: 1,
-        name: 'Javascript'
-      },
-      {
-        id: 2,
-        name: 'Babel'
-      },
-      {
-        id: 3,
-        name: 'Eslint'
-      },
-      {
-        id: 4,
-        name: 'MongoDB'
-      },
-      {
-        id: 5,
-        name: 'Mongoose'
-      },
-      {
-        id: 6,
-        name: 'Twilio'
-      },
-      {
-        id: 7,
-        name: 'Expressjs'
-      },
-      {
-        id: 8,
-        name: 'Nodemailer'
-      },
-      {
-        id: 9,
-        name: 'Airbnb'
-      },
-      {
-        id: 10,
-        name: 'Redis'
-      },
-    ]
-  },
-  {
-    id: 8,
-    title: 'Zuri plugin youtube music video',
-    content: 'A youtube plugin music video for zuri application',
-    githubLink: 'https://github.com/emma50/zc_plugin_youtube_music_video',
-    githubIcon: '/skills/hard-skills/github.svg',
-    link: '',
-    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-  </svg>
-  `,
-    status: 'Private',
-    stack: [
-      {
-        id: 1,
-        name: 'Javascript'
-      },
-      {
-        id: 2,
-        name: 'React'
-      },
-      {
-        id: 3,
-        name: 'Redux'
-      },
-      {
-        id: 4,
-        name: 'Styled Components'
-      },
-    ]
-  },
-  {
-    id: 9,
-    title: 'Random Quote Machine',
-    content: 'An application that randomly generates quote',
-    githubLink: 'https://github.com/emma50/random-quote-machine',
-    githubIcon: '/skills/hard-skills/github.svg',
-    link: 'https://emma50.github.io/random-quote-machine/',
-    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-  </svg>
-  `,
-    status: 'Public',
-    stack: [
-      {
-        id: 1,
-        name: 'Javascript'
-      },
-      {
-        id: 2,
-        name: 'css'
-      },
-      {
-        id: 3,
-        name: 'Font Awesome'
-      },
-    ]
-  },
-  {
-    id: 10,
-    title: 'Funconnect Hub',
-    content: "Funconnect is an app that allow users seamlessly navigate recreational centres around them, plan a trip efficiently and create events for link-up with friends.",
-    githubLink: '',
-    githubIcon: '/skills/hard-skills/github.svg',
-    link: 'https://main.d2uha1mup3vsuv.amplifyapp.com/',
-    linkIcon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-4 h-4">
-    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-  </svg>
-  `,
-    status: 'Private',
-    stack: [
-      {
-        id: 1,
-        name: 'Javascript'
-      },
-      {
-        id: 2,
-        name: 'React'
-      },
-      {
-        id: 3,
-        name: 'Nextjs'
-      },
-      {
-        id: 4,
-        name: 'Iron session'
-      },
-      {
-        id: 5,
-        name: 'Sass'
-      },
-      {
-        id: 6,
-        name: 'MongoDB'
-      },
+      { id: 1, name: 'Javascript' },
+      { id: 2, name: 'Babel' },
+      { id: 3, name: 'Eslint' },
+      { id: 4, name: 'MongoDB' },
+      { id: 5, name: 'Mongoose' },
+      { id: 6, name: 'Twilio' },
+      { id: 7, name: 'ExpressJS' },
+      { id: 8, name: 'Nodemailer' },
+      { id: 9, name: 'Airbnb' },
+      { id: 10, name: 'Redis' },
     ]
   },
 ]
