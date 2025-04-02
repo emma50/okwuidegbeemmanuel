@@ -113,6 +113,42 @@ export const linkIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" vie
 export const portfolio = [
   {
     id: 1,
+    title: 'Cloudi',
+    content: "A learning platform for a career in DevOps.",
+    githubLink: 'https://github.com/emma50/cloudi',
+    githubIcon: '/skills/hard-skills/github.svg',
+    link: 'https://cloudi-five.vercel.app/',
+    linkIcon,
+    status: 'Public',
+    stack: [
+      { id: 1, name: 'Typescript' },
+      { id: 2, name: 'React' },
+      { id: 3, name: 'Vitejs' },
+      { id: 4, name: 'Chakra-UI' },
+      { id: 5, name: 'Swiper' },
+      { id: 6, name: 'React-Intersection-Observer' },
+      { id: 7, name: 'React-Spring/Web' },
+      { id: 8, name: 'React-Responsive' },
+    ]
+  },
+  {
+    id: 2,
+    title: 'H & A',
+    content: "A learning platform for a career in Tech. H&A bridge the gap between ambition and achievement, empowering minds globally to succeed in the dynamic world of technology",
+    githubLink: 'https://github.com/emma50/h-and-a',
+    githubIcon: '/skills/hard-skills/github.svg',
+    link: 'https://h-and-a-oerl.vercel.app/',
+    linkIcon,
+    status: 'Public',
+    stack: [
+      { id: 1, name: 'Typescript' },
+      { id: 2, name: 'React' },
+      { id: 3, name: 'Vitejs' },
+      { id: 4, name: 'Chakra-UI' },
+    ]
+  },
+  {
+    id: 3,
     title: 'Protronics',
     content: "Protronics Inc. is a business that specialize in delivering exceptional PCB assembly solutions. It's mission is to enable it's clients succeed in their technological endeavors by consistently providing high-quality, customizable electronic manufacturing services.",
     githubLink: 'https://github.com/Trust-Finance/protronics-webapp',
@@ -128,7 +164,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 2,
+    id: 4,
     title: 'CoopX',
     content: "CoopX is a cooperative loan application that offer an alternative financing option, particularly for individuals who may face challenges in obtaining loans from traditional banks. It promote financial inclusion and shared responsibility.",
     githubLink: 'https://github.com/d-alchemist/coopx-webapp',
@@ -148,7 +184,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 3,
+    id: 5,
     title: 'Nexaya Frontend Assessment',
     content: "A Nexaya frontend assessment task.",
     githubLink: 'https://github.com/emma50/nexaya-frontend-assessment',
@@ -164,7 +200,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 4,
+    id: 6,
     title: 'Quick Credit API',
     content: 'quick-credit-api is an online lending platform that provides short term soft loans to individuals. This helps solve problems of financial inclusion as a way to alleviate poverty and empower low income earners.',
     githubLink: 'https://github.com/emma50/quick-credit-api',
@@ -182,7 +218,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 5,
+    id: 7,
     title: 'Ticket booking',
     content: 'A mini ticket booking service.',
     githubLink: 'https://github.com/emma50/ticket-booking',
@@ -211,7 +247,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 6,
+    id: 8,
     title: 'E-commerce',
     content: 'A simple e-commerce API.',
     githubLink: 'https://github.com/emma50/e-commerce',
