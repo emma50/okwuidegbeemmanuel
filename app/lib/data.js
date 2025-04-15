@@ -110,9 +110,37 @@ export const linkIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" vie
     <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
   </svg>
   `
+// https://www.fabspaceai.com/
 export const portfolio = [
   {
     id: 1,
+    title: 'FabSpaceAI',
+    content: "The Collaboration and Talent Support System for Electronics Manufacturers.",
+    githubLink: 'https://github.com/Trust-Finance/fabspace-fe',
+    githubIcon: '/skills/hard-skills/github.svg',
+    link: 'https://www.fabspaceai.com/',
+    linkIcon,
+    status: 'Private',
+    stack: [
+      { id: 1, name: 'Typescript' },
+      { id: 2, name: 'React' },
+      { id: 3, name: 'Vitejs' },
+      { id: 4, name: 'Tailwindcss' },
+      { id: 5, name: 'Lucide-React' },
+      { id: 6, name: 'React-Slick' },
+      { id: 7, name: 'Slick-Carousel' },
+      { id: 8, name: 'ESLint' },
+      { id: 9, name: 'Prettier' },
+      { id: 10, name: 'Tanstack/React-Query' },
+      { id: 11, name: 'Formik' },
+      { id: 12, name: 'React-Router-Dom' },
+      { id: 13, name: 'Yup' },
+      { id: 14, name: 'Graphql' },
+      { id: 15, name: 'Apollo/Client' },
+    ]
+  },
+  {
+    id: 2,
     title: 'Cloudi',
     content: "A learning platform for a career in DevOps.",
     githubLink: 'https://github.com/emma50/cloudi',
@@ -123,7 +151,7 @@ export const portfolio = [
     stack: [
       { id: 1, name: 'Typescript' },
       { id: 2, name: 'React' },
-      { id: 3, name: 'Vitejs' },
+      { id: 3, name: 'Vite' },
       { id: 4, name: 'Chakra-UI' },
       { id: 5, name: 'Swiper' },
       { id: 6, name: 'React-Intersection-Observer' },
@@ -132,7 +160,7 @@ export const portfolio = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     title: 'H & A',
     content: "A learning platform for a career in Tech. H&A bridge the gap between ambition and achievement, empowering minds globally to succeed in the dynamic world of technology",
     githubLink: 'https://github.com/emma50/h-and-a',
@@ -143,12 +171,12 @@ export const portfolio = [
     stack: [
       { id: 1, name: 'Typescript' },
       { id: 2, name: 'React' },
-      { id: 3, name: 'Vitejs' },
+      { id: 3, name: 'Vite' },
       { id: 4, name: 'Chakra-UI' },
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: 'Protronics',
     content: "Protronics Inc. is a business that specialize in delivering exceptional PCB assembly solutions. It's mission is to enable it's clients succeed in their technological endeavors by consistently providing high-quality, customizable electronic manufacturing services.",
     githubLink: 'https://github.com/Trust-Finance/protronics-webapp',
@@ -160,11 +188,24 @@ export const portfolio = [
       { id: 1, name: 'Typescript' },
       { id: 2, name: 'React' },
       { id: 3, name: 'Nextjs' },
-      { id: 4, name: 'Tailwindcss' },
+      { id: 4, name: 'Prisma' },
+      { id: 5, name: 'ESLint' },
+      { id: 6, name: 'Tailwindcss' },
+      { id: 7, name: 'Tanstack/React-Query' },
+      { id: 8, name: 'Tanstack/React-Table' },
+      { id: 7, name: 'Formik' },
+      { id: 9, name: 'Multer' },
+      { id: 10, name: 'Axios' },
+      { id: 11, name: 'Quill' },
+      { id: 12, name: 'React-Quill' },
+      { id: 13, name: 'Yup' },
+      { id: 14, name: 'Swiper' },
+      { id: 15, name: 'React-Toastify' },
+      { id: 16, name: 'React-Icons' },
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: 'CoopX',
     content: "CoopX is a cooperative loan application that offer an alternative financing option, particularly for individuals who may face challenges in obtaining loans from traditional banks. It promote financial inclusion and shared responsibility.",
     githubLink: 'https://github.com/d-alchemist/coopx-webapp',
@@ -179,24 +220,11 @@ export const portfolio = [
       { id: 4, name: 'ChakraUI' },
       { id: 5, name: 'Postgresql' },
       { id: 6, name: 'Redux' },
-      { id: 7, name: 'Tanstack' },
+      { id: 7, name: 'Tanstack/React-Table' },
       { id: 8, name: 'Formik' },
-    ]
-  },
-  {
-    id: 5,
-    title: 'Nexaya Frontend Assessment',
-    content: "A Nexaya frontend assessment task.",
-    githubLink: 'https://github.com/emma50/nexaya-frontend-assessment',
-    githubIcon: '/skills/hard-skills/github.svg',
-    link: 'https://nexaya-frontend-assessment.vercel.app/login',
-    linkIcon,
-    status: 'Private',
-    stack: [
-      { id: 1, name: 'Javascript' },
-      { id: 2, name: 'React' },
-      { id: 3, name: 'NextJS' },
-      { id: 4, name: 'Tailwindcss' },
+      { id: 9, name: 'Yup' },
+      { id: 10, name: 'Axios' },
+      { id: 11, name: 'React-Icons' },
     ]
   },
   {
